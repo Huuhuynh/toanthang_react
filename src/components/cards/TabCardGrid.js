@@ -9,7 +9,22 @@ import { PrimaryButton as PrimaryButtonBase } from "../misc/Buttons.js";
 import { ReactComponent as StarIcon } from "../../images/star-icon.svg";
 import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-5.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "../../images/svg-decorator-blob-7.svg";
-import InstructionImage from '../../images/product/bg1.jpg';
+import InstructionImage_1 from "../../images/product/bg1.jpg";
+import InstructionImage_2 from "../../images/product/bg2.jpg";
+import InstructionImage_3 from "../../images/product/bg3.jpg";
+import InstructionImage_4 from "../../images/product/bg4.jpg";
+import InstructionImage_5 from "../../images/product/bg5.jpg";
+import InstructionImage_6 from "../../images/product/bg6.jpg";
+import InstructionImage_7 from "../../images/product/bg7.jpg";
+import InstructionImage_8 from "../../images/product/bg9.png";
+import InstructionImage_9 from "../../images/product/bg10.png";
+import InstructionImage_10 from "../../images/product/bg11.jpg";
+import InstructionImage_11 from "../../images/product/bg12.jpg";
+import InstructionImage_12 from "../../images/product/bg15.jpg";
+import InstructionImage_13 from "../../images/product/bg16.jpg";
+import InstructionImage_14 from "../../images/product/bg17.jpg";
+import InstructionImage_15 from "../../images/product/bg18.jpg";
+import InstructionImage_16 from "../../images/product/bg21.jpg";
 
 const HeaderRow = tw.div`flex justify-between items-center flex-col xl:flex-row`;
 const Header = tw(SectionHeading)``;
@@ -20,15 +35,22 @@ const TabControl = styled.div`
   &:hover {
     ${tw`bg-gray-300 text-gray-700`}
   }
-  ${props => props.active && tw`bg-primary-500! text-gray-100!`}
+  ${(props) => props.active && tw`bg-primary-500! text-gray-100!`}
   }
 `;
 
-const TabContent = tw(motion.div)`mt-6 flex flex-wrap sm:-mr-10 md:-mr-6 lg:-mr-12`;
+const TabContent = tw(
+  motion.div
+)`mt-6 flex flex-wrap sm:-mr-10 md:-mr-6 lg:-mr-12`;
 const CardContainer = tw.div`mt-10 w-full sm:w-1/2 md:w-1/3 lg:w-1/4 sm:pr-10 md:pr-6 lg:pr-12`;
-const Card = tw(motion.a)`bg-gray-200 rounded-b block max-w-xs mx-auto sm:max-w-none sm:mx-0`;
+const Card = tw(
+  motion.a
+)`bg-gray-200 rounded-b block max-w-xs mx-auto sm:max-w-none sm:mx-0`;
 const CardImageContainer = styled.div`
-  ${props => css`background-image: url("${InstructionImage}");`}
+  ${(props) =>
+    css`
+      background-image: url("${props.imageSrc}");
+    `}
   ${tw`h-56 xl:h-64 bg-center bg-cover relative rounded-t`}
 `;
 const CardRatingContainer = tw.div`leading-none absolute inline-flex bg-gray-100 bottom-0 left-0 ml-4 mb-4 rounded-full px-5 py-2 items-end`;
@@ -64,90 +86,109 @@ export default ({
   tabs = {
     Starters: [
       {
-        imageSrc:
-          "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
+        imageSrc: InstructionImage_1,
         title: "Chống Stress",
         content: "Tomato Salad & Carrot",
         price: "$5.99",
         rating: "5.0",
         reviews: "87",
-        url: "#"
+        url: "#",
       },
       {
-        imageSrc:
-          "https://images.unsplash.com/photo-1432139555190-58524dae6a55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
+        imageSrc: InstructionImage_2,
         title: "Macaroni",
         content: "Cheese Pizza",
         price: "$2.99",
         rating: "4.8",
         reviews: "32",
-        url: "../../images/svg-decorator-blob-5.svg"
+        url: "../../images/svg-decorator-blob-5.svg",
       },
       {
-        imageSrc:
-          "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327??ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
+        imageSrc: InstructionImage_3,
         title: "Nelli",
         content: "Hamburger & Fries",
         price: "$7.99",
         rating: "4.9",
         reviews: "89",
-        url: "#"
+        url: "#",
       },
       {
-        imageSrc:
-          "https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
+        imageSrc: InstructionImage_4,
         title: "Jalapeno Poppers",
         content: "Crispy Soyabeans",
         price: "$8.99",
         rating: "4.6",
         reviews: "12",
-        url: "#"
+        url: "#",
       },
       {
-        imageSrc:
-          "https://images.unsplash.com/photo-1473093226795-af9932fe5856?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
+        imageSrc: InstructionImage_5,
         title: "Cajun Chicken",
         content: "Roasted Chicken & Egg",
         price: "$7.99",
         rating: "4.2",
         reviews: "19",
-        url: "#"
+        url: "#",
       },
       {
-        imageSrc:
-          "https://images.unsplash.com/photo-1550461716-dbf266b2a8a7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
+        imageSrc: InstructionImage_6,
         title: "Chillie Cake",
         content: "Deepfried Chicken",
         price: "$2.99",
         rating: "5.0",
         reviews: "61",
-        url: "#"
+        url: "#",
       },
       {
-        imageSrc:
-          "https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
+        imageSrc: InstructionImage_7,
         title: "Guacamole Mex",
         content: "Mexican Chilli",
         price: "$3.99",
         rating: "4.2",
         reviews: "95",
-        url: "#"
+        url: "#",
       },
       {
-        imageSrc:
-          "https://images.unsplash.com/photo-1565310022184-f23a884f29da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
+        imageSrc: InstructionImage_8,
         title: "Carnet Nachos",
         content: "Chilli Crispy Nachos",
         price: "$3.99",
         rating: "3.9",
         reviews: "26",
-        url: "#"
-      }
+        url: "#",
+      },
+      {
+        imageSrc: InstructionImage_9,
+        title: "Carnet Nachos",
+        content: "Chilli Crispy Nachos",
+        price: "$3.99",
+        rating: "3.9",
+        reviews: "26",
+        url: "#",
+      },
+      {
+        imageSrc: InstructionImage_10,
+        title: "Carnet Nachos",
+        content: "Chilli Crispy Nachos",
+        price: "$3.99",
+        rating: "3.9",
+        reviews: "26",
+        url: "#",
+      },
+      {
+        imageSrc: InstructionImage_11,
+        title: "Carnet Nachos",
+        content: "Chilli Crispy Nachos",
+        price: "$3.99",
+        rating: "3.9",
+        reviews: "26",
+        url: "#",
+      },
     ],
     Main: getRandomCards(),
     Soup: getRandomCards(),
-    Desserts: getRandomCards()
-  }
+    Desserts: getRandomCards(),
+  },
 }) => {
   /*
    * To customize the tabs, pass in data using the `tabs` prop. It should be an object which contains the name of the tab
@@ -164,7 +205,11 @@ export default ({
           <Header>{heading}</Header>
           <TabsControl>
             {Object.keys(tabs).map((tabName, index) => (
-              <TabControl key={index} active={activeTab === tabName} onClick={() => setActiveTab(tabName)}>
+              <TabControl
+                key={index}
+                active={activeTab === tabName}
+                onClick={() => setActiveTab(tabName)}
+              >
                 {tabName}
               </TabControl>
             ))}
@@ -177,14 +222,14 @@ export default ({
             variants={{
               current: {
                 opacity: 1,
-                scale:1,
+                scale: 1,
                 display: "flex",
               },
               hidden: {
                 opacity: 0,
-                scale:0.8,
+                scale: 0.8,
                 display: "none",
-              }
+              },
             }}
             transition={{ duration: 0.4 }}
             initial={activeTab === tabKey ? "current" : "hidden"}
@@ -192,7 +237,13 @@ export default ({
           >
             {tabs[tabKey].map((card, index) => (
               <CardContainer key={index}>
-                <Card className="group" href={card.url} initial="rest" whileHover="hover" animate="rest">
+                <Card
+                  className="group"
+                  href={card.url}
+                  initial="rest"
+                  whileHover="hover"
+                  animate="rest"
+                >
                   <CardImageContainer imageSrc={card.imageSrc}>
                     <CardRatingContainer>
                       <CardRating>
@@ -205,12 +256,12 @@ export default ({
                       variants={{
                         hover: {
                           opacity: 1,
-                          height: "auto"
+                          height: "auto",
                         },
                         rest: {
                           opacity: 0,
-                          height: 0
-                        }
+                          height: 0,
+                        },
                       }}
                       transition={{ duration: 0.3 }}
                     >
@@ -245,7 +296,7 @@ const getRandomCards = () => {
       price: "$5.99",
       rating: "5.0",
       reviews: "87",
-      url: "#"
+      url: "#",
     },
     {
       imageSrc:
@@ -255,7 +306,7 @@ const getRandomCards = () => {
       price: "$3.99",
       rating: "4.5",
       reviews: "34",
-      url: "#"
+      url: "#",
     },
     {
       imageSrc:
@@ -265,7 +316,7 @@ const getRandomCards = () => {
       price: "$3.99",
       rating: "3.9",
       reviews: "26",
-      url: "#"
+      url: "#",
     },
     {
       imageSrc:
@@ -275,7 +326,7 @@ const getRandomCards = () => {
       price: "$3.99",
       rating: "4.2",
       reviews: "95",
-      url: "#"
+      url: "#",
     },
     {
       imageSrc:
@@ -285,7 +336,7 @@ const getRandomCards = () => {
       price: "$2.99",
       rating: "5.0",
       reviews: "61",
-      url: "#"
+      url: "#",
     },
     {
       imageSrc:
@@ -295,7 +346,7 @@ const getRandomCards = () => {
       price: "$7.99",
       rating: "4.9",
       reviews: "89",
-      url: "#"
+      url: "#",
     },
     {
       imageSrc:
@@ -305,7 +356,7 @@ const getRandomCards = () => {
       price: "$8.99",
       rating: "4.6",
       reviews: "12",
-      url: "#"
+      url: "#",
     },
     {
       imageSrc:
@@ -315,8 +366,8 @@ const getRandomCards = () => {
       price: "$7.99",
       rating: "4.2",
       reviews: "19",
-      url: "#"
-    }
+      url: "#",
+    },
   ];
 
   // Shuffle array
