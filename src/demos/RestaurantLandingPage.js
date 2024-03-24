@@ -14,7 +14,7 @@ import Footer from "../components/footers/FiveColumnWithInputForm.js";
 import chefIconImageSrc from "../images/chef-icon.svg";
 import celebrationIconImageSrc from "../images/celebration-icon.svg";
 import shopIconImageSrc from "../images/shop-icon.svg";
-import bg_tom from '../images/product/bg_tom.jpeg';
+import bg_tom from "../images/product/bg_tom.jpeg";
 
 export default () => {
   const Subheading = tw.span`tracking-wider text-sm font-medium`;
@@ -25,16 +25,19 @@ export default () => {
   return (
     <AnimationRevealPage>
       <Hero
-        heading={<>TOÀN THẮNG <HighlightedText>COMMERCE</HighlightedText></>}
+        heading={
+          <>
+            TOÀN THẮNG <HighlightedText>COMMERCE</HighlightedText>
+          </>
+        }
         description="Với phương châm “ Chất lượng mang đến thịnh vượng”, và định hướng “Liên tục cải tiến” Công Ty đã luôn nỗ lực cả về trình độ kỹ thuật lao động, máy móc, thiết bị, xây dựng uy tín thương hiệu, niềm tin với khách hàng với những sản phẩm chúng tôi cung cấp.
         Sau nhiều năm đi vào hoạt động và phát triển, với phương châm “Chất lượng mang đến thịnh vượng” "
         imageSrc={bg_tom}
         imageCss={imageCss}
         imageDecoratorBlob={true}
-        primaryButtonText="Order Now"
-        watchVideoButtonText="Meet The Chefs"
+        primaryButtonText="Liên hệ ngay"
       />
-      {/* <MainFeature
+      <MainFeature
         subheading={<Subheading>Established Since 2014</Subheading>}
         heading={
           <>
@@ -44,11 +47,9 @@ export default () => {
         }
         description={
           <Description>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua.
-            <br />
-            <br />
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Doxycycline <br />
+            hyclate..200g <br />
+            Tá dược vừa đủ...1kg<br />
           </Description>
         }
         buttonRounded={false}
@@ -60,7 +61,7 @@ export default () => {
         imageCss={imageCss}
         imageDecoratorBlob={true}
         imageDecoratorBlobCss={tw`left-1/2 -translate-x-1/2 md:w-32 md:h-32 opacity-25`}
-      /> */}
+      />
       {/* TabGrid Component also accepts a tabs prop to customize the tabs and its content directly. Please open the TabGrid component file to see the structure of the tabs props.*/}
       <TabGrid
         heading={
@@ -80,28 +81,31 @@ export default () => {
             imageSrc: shopIconImageSrc,
             title: "230+ Locations",
             description: "Lorem ipsum donor amet siti ceali placeholder text",
-            url: "https://google.com"
+            url: "https://google.com",
           },
           {
             imageSrc: chefIconImageSrc,
             title: "Professional Chefs",
             description: "Lorem ipsum donor amet siti ceali placeholder text",
-            url: "https://timerse.com"
+            url: "https://timerse.com",
           },
           {
             imageSrc: celebrationIconImageSrc,
             title: "Birthday Catering",
             description: "Lorem ipsum donor amet siti ceali placeholder text",
-            url: "https://reddit.com"
-          }
+            url: "https://reddit.com",
+          },
         ]}
-
         imageContainerCss={tw`p-2!`}
         imageCss={tw`w-20! h-20!`}
       />
       <MainFeature2
         subheading={<Subheading>A Reputed Brand</Subheading>}
-        heading={<>Why <HighlightedText>Choose Us ?</HighlightedText></>}
+        heading={
+          <>
+            Why <HighlightedText>Choose Us ?</HighlightedText>
+          </>
+        }
         statistics={[
           {
             key: "Orders",
@@ -109,12 +113,12 @@ export default () => {
           },
           {
             key: "Customers",
-            value: "11000+"
+            value: "11000+",
           },
           {
             key: "Chefs",
-            value: "1500+"
-          }
+            value: "1500+",
+          },
         ]}
         primaryButtonText="Order Now"
         primaryButtonUrl="https://order.now.com"
@@ -128,12 +132,21 @@ export default () => {
       />
       <Testimonial
         subheading=""
-        heading={<>Customers <HighlightedText>Love Us.</HighlightedText></>}
+        heading={
+          <>
+            Customers <HighlightedText>Love Us.</HighlightedText>
+          </>
+        }
       />
       <DownloadApp
-        text={<>People around you are ordering delicious meals using the <HighlightedTextInverse>Treact App.</HighlightedTextInverse></>}
+        text={
+          <>
+            People around you are ordering delicious meals using the{" "}
+            <HighlightedTextInverse>Treact App.</HighlightedTextInverse>
+          </>
+        }
       />
       <Footer />
     </AnimationRevealPage>
   );
-}
+};

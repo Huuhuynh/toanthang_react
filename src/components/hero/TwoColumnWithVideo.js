@@ -63,8 +63,6 @@ export default ({
  description="Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.",
   primaryButtonText="Get Started",
   primaryButtonUrl="#",
-  watchVideoButtonText="Watch Video",
-  watchVideoYoutubeUrl="https://www.youtube.com/embed/_GuOjXYl5ew",
   imageSrc=DesignIllustration,
   imageCss=null,
   imageDecoratorBlob = false,
@@ -83,12 +81,6 @@ export default ({
             <Paragraph>{description}</Paragraph>
             <Actions>
               <PrimaryButton as="a" href={primaryButtonUrl}>{primaryButtonText}</PrimaryButton>
-              <WatchVideoButton onClick={toggleModal}>
-                <span className="playIconContainer">
-                  <PlayIcon className="playIcon" />
-                </span>
-                <span className="playText">{watchVideoButtonText}</span>
-              </WatchVideoButton>
             </Actions>
           </LeftColumn>
           <RightColumn>
@@ -113,9 +105,6 @@ export default ({
           <CloseModalButton onClick={toggleModal}>
             <CloseIcon tw="w-6 h-6" />
           </CloseModalButton>
-          <div className="content">
-            <ResponsiveVideoEmbed url={watchVideoYoutubeUrl} tw="w-full" />
-          </div>
         </StyledModal>
       </Container>
     </>

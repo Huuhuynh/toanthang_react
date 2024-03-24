@@ -70,7 +70,7 @@ export default ({
           {imageDecoratorBlob && <DecoratorBlob css={imageDecoratorBlobCss} />}
         </ImageColumn>
         <TextColumn textOnLeft={textOnLeft}>
-          <TextContent>
+        <TextContent>
             <Subheading>{subheading}</Subheading>
             <Heading>{heading}</Heading>
             <Description>{description}</Description>

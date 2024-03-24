@@ -73,10 +73,11 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
    */
   const defaultLinks = [
     <NavLinks key={1}>
-      <NavLink href="/#">About</NavLink>
-      <NavLink href="/#">Blog</NavLink>
-      <NavLink href="/#">Pricing</NavLink>
-      <NavLink href="/#">Contact Us</NavLink>
+      <NavLink href="/">Trang chủ</NavLink>
+      <NavLink href="/product">Sản phẩm</NavLink>
+      <NavLink href="/#">Dịch vụ</NavLink>
+      <NavLink href="/#">Về chúng tôi</NavLink>
+      <NavLink href="/#">Liên hệ</NavLink>
       <NavLink href="/#" tw="lg:ml-12!">
         Login
       </NavLink>
@@ -99,6 +100,7 @@ export default ({ roundedHeaderButton = false, logoLink, links, className, colla
 
   return (
     <Header className={className || "header-light"}>
+      <div></div>
       <DesktopNavLinks css={collapseBreakpointCss.desktopNavLinks}>
         {logoLink}
         {links}

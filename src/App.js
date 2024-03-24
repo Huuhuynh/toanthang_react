@@ -105,6 +105,8 @@ import ThankYouPage from "./ThankYouPage";
 import RestaurantLandingPage from "./demos/RestaurantLandingPage";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Product from "./demos/Product";
+import Chongstress from "./detail/chongstress";
 
 export default function App() {
   // If you want to disable the animation just use the disabled `prop` like below on your page's component
@@ -116,10 +118,15 @@ export default function App() {
       <Router>
         <Routes>
           <Route path="/" element={<RestaurantLandingPage />} />
+          <Route path="/product" element={<Product />} />
+
+
           {/* <Route path="/components/:type/:name" element={<ComponentRenderer />} />
            <Route path="/components/:type/:subtype/:name" element={<ComponentRenderer />}/>
           <Route path="/" element={<MainLandingPage />} />
                <Route path="/thank-you" element={<ThankYouPage />} /> */}
+
+                         <Route path="/chongstress" element={<Chongstress />} />
         </Routes>
       </Router>
     </>

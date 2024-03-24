@@ -8,6 +8,7 @@ import LogoImage from "../../images/logo.svg";
 import { ReactComponent as FacebookIcon } from "../../images/facebook-icon.svg";
 import { ReactComponent as TwitterIcon } from "../../images/twitter-icon.svg";
 import { ReactComponent as YoutubeIcon } from "../../images/youtube-icon.svg";
+import logo from "../../images/logo.png";
 
 const Container = tw.div`relative bg-gray-200 text-gray-700 -mb-8 -mx-8 px-8 py-20 lg:py-24`;
 const Content = tw.div`max-w-screen-xl mx-auto relative z-10`;
@@ -52,82 +53,33 @@ export default () => {
       <Content>
         <SixColumns>
           <Column>
-            <ColumnHeading>Main</ColumnHeading>
+            <ColumnHeading>THÔNG TIN LIÊN HỆ</ColumnHeading>
+            <ColumnHeading>  CÔNG TY TNHH ĐẦU TƯ VÀ TM DV TOÀN THẮNG COMMERCE</ColumnHeading>
+          
             <LinkList>
               <LinkListItem>
-                <Link href="#">Blog</Link>
+                <Link href="#"> Địa chỉ: 49 Đường số 6B (nối dài) KDC Vĩnh Lộc, KP 4, P. Bình Hưng Hòa B, Quận Bình Tân</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">FAQs</Link>
+                <Link href="#"> Điện thoại: 0932 186 699</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">Support</Link>
+                <Link href="#"> Email: toanthangtmdv@gmail.com</Link>
               </LinkListItem>
               <LinkListItem>
-                <Link href="#">About Us</Link>
-              </LinkListItem>
-            </LinkList>
-          </Column>
-          <Column>
-            <ColumnHeading>Product</ColumnHeading>
-            <LinkList>
-              <LinkListItem>
-                <Link href="#">Log In</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">Personal</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">Business</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">Team</Link>
-              </LinkListItem>
-            </LinkList>
-          </Column>
-          <Column>
-            <ColumnHeading>Press</ColumnHeading>
-            <LinkList>
-              <LinkListItem>
-                <Link href="#">Logos</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">Events</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">Stories</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">Office</Link>
-              </LinkListItem>
-            </LinkList>
-          </Column>
-          <Column>
-            <ColumnHeading>Legal</ColumnHeading>
-            <LinkList>
-              <LinkListItem>
-                <Link href="#">GDPR</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">Privacy Policy</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">Terms of Service</Link>
-              </LinkListItem>
-              <LinkListItem>
-                <Link href="#">Disclaimer</Link>
+                <Link href="#"> Website: toanthangcommerce.com</Link>
               </LinkListItem>
             </LinkList>
           </Column>
           <SubscribeNewsletterColumn>
             <SubscribeNewsletterContainer>
-              <ColumnHeading>Subscribe to our Newsletter</ColumnHeading>
+              <ColumnHeading>CHÍNH SÁCH HỖ TRỢ</ColumnHeading>
               <SubscribeText>
-                We deliver high quality blog posts written by professionals weekly. And we promise no spam.
+                Hãy liên hệ với chúng tôi qua số điện thoại hoặc email để được hỗ trợ trực tiếp
               </SubscribeText>
               <SubscribeForm method="get" action="#">
-                <Input type="email" placeholder="Your Email Address" />
-                <SubscribeButton type="submit">Subscribe</SubscribeButton>
+                <Input type="email" placeholder="Nhập email của bạn" />
+                <SubscribeButton type="submit">Gửi</SubscribeButton>
               </SubscribeForm>
             </SubscribeNewsletterContainer>
           </SubscribeNewsletterColumn>
@@ -135,10 +87,8 @@ export default () => {
         <Divider />
         <ThreeColRow>
           <LogoContainer>
-            <LogoImg src={LogoImage} />
-            <LogoText>Treact Inc.</LogoText>
+          <img src={logo} alt="logo" style={{ width: 250}}/>
           </LogoContainer>
-          <CopywrightNotice>&copy; 2018 Treact Inc. All Rights Reserved.</CopywrightNotice>
           <SocialLinksContainer>
             <SocialLink href="https://facebook.com">
               <FacebookIcon />
