@@ -14,7 +14,7 @@ import InstructionImage_2 from "../../images/product/bg2.jpg";
 import InstructionImage_3 from "../../images/product/bg3.jpg";
 import InstructionImage_4 from "../../images/product/bg4.jpg";
 import InstructionImage_5 from "../../images/product/bg5.jpg";
-import InstructionImage_6 from "../../images/product/bg6.jpg";
+import InstructionImage_6 from "../../images/product/bg6.jpeg";
 import InstructionImage_7 from "../../images/product/bg7.jpg";
 import InstructionImage_8 from "../../images/product/bg9.png";
 import InstructionImage_9 from "../../images/product/bg10.png";
@@ -22,7 +22,7 @@ import InstructionImage_10 from "../../images/product/bg11.jpg";
 import InstructionImage_11 from "../../images/product/bg12.jpg";
 import InstructionImage_12 from "../../images/product/bg15.jpg";
 import InstructionImage_13 from "../../images/product/bg16.jpg";
-import InstructionImage_14 from "../../images/product/bg17.jpg";
+import InstructionImage_14 from "../../images/product/bg17.jpeg";
 import InstructionImage_15 from "../../images/product/bg18.jpg";
 import InstructionImage_16 from "../../images/product/bg21.jpg";
 
@@ -149,7 +149,7 @@ export default ({
         imageSrc: InstructionImage_1,
         title: "Chống Stress",
         content: "1 lít/chai - 20 chai/ thùng",
-        price: "199,000 VNĐ",
+        price: "Giá: Liên hệ",
         rating: "5.0",
         reviews: "87",
         url: "/chongstress",
@@ -158,10 +158,10 @@ export default ({
         imageSrc: InstructionImage_14,
         title: "NUTRI - PRO",
         content: "500g/lon",
-        price: "180,000 VNĐ",
+        price: "Giá: Liên hệ",
         rating: "4.7",
         reviews: "159",
-        url: "#",
+        url: "/nutripro",
       },
       {
         imageSrc: InstructionImage_8,
@@ -179,7 +179,7 @@ export default ({
         price: "355,000 VNĐ",
         rating: "4.6",
         reviews: "12",
-        url: "#",
+        url: "/ttpathostop",
       },
       {
         imageSrc: InstructionImage_6,
@@ -188,7 +188,7 @@ export default ({
         price: "340,000 VNĐ",
         rating: "5.0",
         reviews: "61",
-        url: "#",
+        url: "/inobitol",
       },
     ],
     TIÊU_HOÁ: [

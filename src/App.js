@@ -107,6 +107,9 @@ import RestaurantLandingPage from "./demos/RestaurantLandingPage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Product from "./demos/Product";
 import Chongstress from "./detail/chongstress";
+import Nutripro from "./detail/nutripro";
+import TTPathoStop from "./detail/TTPathoStop";
+import Inobitol from "./detail/Inobitol";
 
 export default function App() {
   // If you want to disable the animation just use the disabled `prop` like below on your page's component
@@ -127,6 +130,9 @@ export default function App() {
                <Route path="/thank-you" element={<ThankYouPage />} /> */}
 
                          <Route path="/chongstress" element={<Chongstress />} />
+                         <Route path="/nutripro" element={<Nutripro />} />
+                         <Route path="/ttpathostop" element={<TTPathoStop />} />
+                         <Route path="/inobitol" element={<Inobitol />} />
         </Routes>
       </Router>
     </>

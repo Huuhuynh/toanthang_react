@@ -13,6 +13,7 @@ export default () => {
   const Subheading = tw.span`tracking-wider text-sm font-medium`;
   const HighlightedTextInverse = tw.span`bg-gray-100 text-primary-500 px-4 transform -skew-x-12 inline-block`;
   const Description = tw.span`inline-block mt-8`;
+  const Description2 = tw.span`inline-block mt-8`;
   const imageCss = tw`rounded-4xl`;
 
   return (
@@ -23,20 +24,72 @@ export default () => {
         heading={
           <>
             Chống Stress
-            <wbr /> <HighlightedText>over 5 years.</HighlightedText>
+            <wbr /> <HighlightedText>Liên Hệ Giá</HighlightedText>
           </>
         }
         description={
           <Description>
-            Cung cấp vitamin, acid amin thiết yếu và khoáng điện giải giúp tôm
-            chống sốc, chống stress, phục hồi nhanh sau khi bệnh, gia tăng sức
-            đề kháng, dùng trong trường hợp vận chuyển tôm hoặc tôm sang ao,
-            chống sốc môi trường khi thả tôm.
+            <strong>CÔNG DỤNG: </strong>
+            <p>
+              Sản phẩm được cân đối đặc biệt chuyên dùng để chống sốc, chống
+              stress , chống gãy cơ, đục cơ khi sang tôm, giảm tỷ lệ hao hụt
+              đáng kể, đặc biệt sang tôm giai đoạn tôm lớn, giúp tôm nhanh chóng
+              hồi phục và thích nghi với môi trường nước mới. Chống stress trong
+              trường hợp do thời tiết thay đổi. Chống stress do chỉ số môi
+              trường ao nuôi biến động dẫn đến tôm dễ bị nhiễm bệnh, hao hụt đầu
+              con.
+            </p>
+            <p>
+              BẢO QUẢN: Bảo quản nơi khô ráo và thoáng mát. <br />
+              Cảnh báo: Tránh xa tầm tay trẻ em <br />
+              Thể tích thực: 1 lít <br />
+              Mã số: <br />
+              TCCS <br />
+              Ngày SX: Xem trên bao bì <br />
+              Hạn dùng: 2 năm kể từ ngày sản xuất <br />
+              CHỈ DÙNG TRONG NUÔI TRỒNG THỦY SẢN <br />
+              Sản phẩm không chứa các chất cấm sử dụng trong sản xuất, kinh
+              doanh thủy sản theo các quy định hiện hành của Bộ NN&PTNT
+            </p>
           </Description>
+        }
+        description2={
+          <Description2>
+            <strong>THÀNH PHẦN: Trong 1 lít sản phẩm </strong>
+            <p>
+              Ca ( min)………………90.000 mg/lít
+              <br />
+              Fe (min)………………………5.000 mg/lít
+              <br />
+              Cu (min) 5.000 mg/lít
+              <br />
+              Zn (min) 10.000 mg/lít
+              <br />
+              Mn (min) 5.000 mg/lít
+              <br />
+              Mg ( min)………………………60.000 mg/lít
+              <br />
+              K( min)………………………………..40.000 mg/lít
+              <br />
+              Glycin ( min)………………………………35.000 mg/lít
+              <br />
+              Dung môi đặc biệt vừa đủ………………………1 lít.
+            </p>
+            <strong>HƯỚNG DẪN SỬ DỤNG: </strong>
+            <p>
+              Chống stress do thời tiết thay đổi: 1 lít/ 2.000m3 nước. <br />{" "}
+              Chống stress do chỉ số môi trường ao nuôi biến động: 1lít/ 1.500m3
+              nước.
+              <br />
+              Chống sốc, chống gãy cơ khi sang tôm giai đoạn tôm dưới 45 ngày
+              tuổi: 1lít/ 800m3 nước. <br /> Chống sốc, chống gãy cơ khi sang
+              tôm giai đoạn tôm trên 45 ngày tuổi: 1lít/ 500m3 nước.
+            </p>
+          </Description2>
         }
         buttonRounded={false}
         textOnLeft={false}
-        primaryButtonText="Latest Offers"
+        primaryButtonText="Liên hệ"
         imageSrc={InstructionImage_1}
         imageCss={imageCss}
         imageDecoratorBlob={true}
