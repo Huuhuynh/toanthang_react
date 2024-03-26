@@ -15,6 +15,7 @@ export default () => {
   const Description = tw.span`inline-block mt-8`;
   const Description2 = tw.span`inline-block mt-8`;
   const imageCss = tw`rounded-4xl`;
+  var token = localStorage.getItem('token');
 
   return (
     <AnimationRevealPage>
@@ -24,7 +25,9 @@ export default () => {
         heading={
           <>
             Chống Stress
-            <wbr /> <HighlightedText>Liên Hệ Giá</HighlightedText>
+            <wbr /> {
+              token=== "true"? <HighlightedText>300000 VNĐ</HighlightedText> : <HighlightedText>Liên Hệ Giá</HighlightedText>
+            } 
           </>
         }
         description={

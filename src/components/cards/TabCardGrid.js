@@ -96,7 +96,7 @@ export default ({
         price: "310,000 VNĐ",
         rating: "4.8",
         reviews: "32",
-        url: "/chongstress",
+        url: "/TTHepaFix",
       },
       {
         imageSrc: InstructionImage_5,
@@ -105,7 +105,7 @@ export default ({
         price: "395,000 VNĐ",
         rating: "4.2",
         reviews: "19",
-        url: "#",
+        url: "/TTLiverBoost",
       },
       {
         imageSrc: InstructionImage_7,
@@ -114,7 +114,7 @@ export default ({
         price: "350,000 VNĐ",
         rating: "4.2",
         reviews: "95",
-        url: "#",
+        url: "/TTLiverSur",
       },
       {
         imageSrc: InstructionImage_9,
@@ -132,7 +132,7 @@ export default ({
         price: "365,000 VNĐ",
         rating: "3.9",
         reviews: "26",
-        url: "#",
+        url: "/SulBSC",
       },
       {
         imageSrc: InstructionImage_13,
@@ -141,7 +141,7 @@ export default ({
         price: "365,000 VNĐ",
         rating: "4.6",
         reviews: "162",
-        url: "#",
+        url: "/LiverTonic",
       },
     ],
     DINH_DƯỠNG: [
@@ -199,7 +199,7 @@ export default ({
         price: "280,000 VNĐ",
         rating: "4.6",
         reviews: "216",
-        url: "#",
+        url: "/AquaCrub",
       },
     ],
     MÔI_TRƯỜNG: [
@@ -210,7 +210,7 @@ export default ({
         price: "300,000 VNĐ",
         rating: "4.9",
         reviews: "89",
-        url: "#",
+        url: "/TTZ",
       },
       {
         imageSrc: InstructionImage_11,
@@ -219,7 +219,7 @@ export default ({
         price: "120,000 VNĐ",
         rating: "4.9",
         reviews: "135",
-        url: "#",
+        url: "/AllCide",
       },
       {
         imageSrc: InstructionImage_12,

@@ -110,6 +110,15 @@ import Chongstress from "./detail/chongstress";
 import Nutripro from "./detail/nutripro";
 import TTPathoStop from "./detail/TTPathoStop";
 import Inobitol from "./detail/Inobitol";
+import Login from "./pages/Login";
+import TTHepaFix from "./detail/TTHepaFix";
+import TTLiverBoost from "./detail/TTLiverBoost";
+import TTLiverSur from "./detail/TTLiverSur";
+import SulBSC from "./detail/SulBSC";
+import LiverTonic from "./detail/LiverTonic";
+import AquaCrub from "./detail/AquaCrub";
+import TTZ from "./detail/TTZ";
+import AllCide from "./detail/AllCide";
 
 export default function App() {
   // If you want to disable the animation just use the disabled `prop` like below on your page's component
@@ -120,19 +129,27 @@ export default function App() {
       <GlobalStyles />
       <Router>
         <Routes>
+          <Route path="/login" element={<Login />} />
           <Route path="/" element={<RestaurantLandingPage />} />
           <Route path="/product" element={<Product />} />
-
 
           {/* <Route path="/components/:type/:name" element={<ComponentRenderer />} />
            <Route path="/components/:type/:subtype/:name" element={<ComponentRenderer />}/>
           <Route path="/" element={<MainLandingPage />} />
                <Route path="/thank-you" element={<ThankYouPage />} /> */}
 
-                         <Route path="/chongstress" element={<Chongstress />} />
-                         <Route path="/nutripro" element={<Nutripro />} />
-                         <Route path="/ttpathostop" element={<TTPathoStop />} />
-                         <Route path="/inobitol" element={<Inobitol />} />
+          <Route path="/chongstress" element={<Chongstress />} />
+          <Route path="/nutripro" element={<Nutripro />} />
+          <Route path="/ttpathostop" element={<TTPathoStop />} />
+          <Route path="/inobitol" element={<Inobitol />} />
+          <Route path="/TTHepaFix" element={<TTHepaFix />} />
+          <Route path="/TTLiverBoost" element={<TTLiverBoost />} />
+          <Route path="/TTLiverSur" element={<TTLiverSur />} />
+          <Route path="/SulBSC" element={<SulBSC />} />
+          <Route path="/LiverTonic" element={<LiverTonic />} />
+          <Route path="/AquaCrub" element={<AquaCrub />} />
+          <Route path="/TTZ" element={<TTZ />} />
+          <Route path="/AllCide" element={<AllCide />} />
         </Routes>
       </Router>
     </>
