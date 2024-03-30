@@ -11,10 +11,11 @@ import Testimonial from "../components/testimonials/ThreeColumnWithProfileImage.
 import DownloadApp from "../components/cta/DownloadApp.js";
 import Footer from "../components/footers/FiveColumnWithInputForm.js";
 
-import chefIconImageSrc from "../images/chef-icon.svg";
+import chefIconImageSrc from "../images/chef-icon.png";
 import celebrationIconImageSrc from "../images/celebration-icon.svg";
 import shopIconImageSrc from "../images/shop-icon.svg";
 import bg_tom from "../images/product/bg_tom.jpeg";
+import bg_tom_2 from "../images/bg/bg1.png";
 
 export default () => {
   const Subheading = tw.span`tracking-wider text-sm font-medium`;
@@ -37,31 +38,6 @@ export default () => {
         imageDecoratorBlob={true}
         primaryButtonText="Liên hệ ngay"
       />
-      <MainFeature
-        subheading={<Subheading>Established Since 2014</Subheading>}
-        heading={
-          <>
-            We've been serving for
-            <wbr /> <HighlightedText>over 5 years.</HighlightedText>
-          </>
-        }
-        description={
-          <Description>
-            Doxycycline <br />
-            hyclate..200g <br />
-            Tá dược vừa đủ...1kg<br />
-          </Description>
-        }
-        buttonRounded={false}
-        textOnLeft={false}
-        primaryButtonText="Latest Offers"
-        imageSrc={
-          "https://images.unsplash.com/photo-1460306855393-0410f61241c7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
-        }
-        imageCss={imageCss}
-        imageDecoratorBlob={true}
-        imageDecoratorBlobCss={tw`left-1/2 -translate-x-1/2 md:w-32 md:h-32 opacity-25`}
-      />
       {/* TabGrid Component also accepts a tabs prop to customize the tabs and its content directly. Please open the TabGrid component file to see the structure of the tabs props.*/}
       <TabGrid
         heading={
@@ -73,57 +49,57 @@ export default () => {
       <Features
         heading={
           <>
-            Amazing <HighlightedText>Services.</HighlightedText>
+            Vì sao  <HighlightedText>chọn chúng tôi?</HighlightedText>
           </>
         }
         cards={[
           {
             imageSrc: shopIconImageSrc,
-            title: "230+ Locations",
-            description: "Lorem ipsum donor amet siti ceali placeholder text",
-            url: "https://google.com",
+            title: "Sản phẩm được cung cấp toàn quốc",
+            description: "Nhà máy sản xuất đạt chuẩn GMP-WHO",
+            url: "https://www.facebook.com/profile.php?id=61556809433602",
           },
           {
             imageSrc: chefIconImageSrc,
-            title: "Professional Chefs",
-            description: "Lorem ipsum donor amet siti ceali placeholder text",
-            url: "https://timerse.com",
+            title: "Chuyên gia có nhiều năm kinh nghiệm",
+            description: "Công ty có nhiều chuyên gia trong lĩnh vực về Thuỷ Sản. Đội ngũ tư vấn miễn phí, tận tình",
+            url: "https://www.facebook.com/profile.php?id=61556809433602",
           },
           {
             imageSrc: celebrationIconImageSrc,
-            title: "Birthday Catering",
-            description: "Lorem ipsum donor amet siti ceali placeholder text",
-            url: "https://reddit.com",
+            title: "Ưu đãi",
+            description: "Các chương trình ưu đãi đến khách hàng khi liên hệ trực tiếp nhận tư vấn",
+            url: "https://www.facebook.com/profile.php?id=61556809433602",
           },
         ]}
         imageContainerCss={tw`p-2!`}
         imageCss={tw`w-20! h-20!`}
       />
       <MainFeature2
-        subheading={<Subheading>A Reputed Brand</Subheading>}
+        // subheading={<Subheading>A Reputed Brand</Subheading>}
         heading={
           <>
-            Why <HighlightedText>Choose Us ?</HighlightedText>
+           <HighlightedText> Bắt đầu</HighlightedText> ngay hôm nay cùng chúng tôi 
           </>
         }
         statistics={[
           {
-            key: "Orders",
-            value: "94000+",
+            key: "Năm kinh nghiệm",
+            value: "9+",
           },
           {
-            key: "Customers",
-            value: "11000+",
+            key: "Khách hàng",
+            value: "1000+",
           },
           {
-            key: "Chefs",
-            value: "1500+",
+            key: "Tỉnh thành cả nước",
+            value: "63",
           },
         ]}
-        primaryButtonText="Order Now"
+        // primaryButtonText="Order Now"
         primaryButtonUrl="https://order.now.com"
         imageInsideDiv={false}
-        imageSrc="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEzNzI2fQ&auto=format&fit=crop&w=768&q=80"
+        imageSrc= {bg_tom_2}
         imageCss={Object.assign(tw`bg-cover`, imageCss)}
         imageContainerCss={tw`md:w-1/2 h-auto`}
         imageDecoratorBlob={true}
@@ -134,15 +110,7 @@ export default () => {
         subheading=""
         heading={
           <>
-            Customers <HighlightedText>Love Us.</HighlightedText>
-          </>
-        }
-      />
-      <DownloadApp
-        text={
-          <>
-            People around you are ordering delicious meals using the{" "}
-            <HighlightedTextInverse>Treact App.</HighlightedTextInverse>
+            Khách hàng <HighlightedText>đánh giá</HighlightedText>
           </>
         }
       />

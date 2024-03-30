@@ -80,7 +80,6 @@ const DecoratorBlob1 = styled(SvgDecoratorBlob1)`
 const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
   ${tw`pointer-events-none -z-20 absolute left-0 bottom-0 h-80 w-80 opacity-15 transform -translate-x-2/3 text-primary-500`}
 `;
-
 export default ({
   heading = "Checkout the Menu",
   tabsTitleName = [
@@ -228,7 +227,7 @@ export default ({
         price: "365,000 VNĐ",
         rating: "3.9",
         reviews: "26",
-        url: "#",
+        url: "/ToxinSSe",
       },
       {
         imageSrc: InstructionImage_16,
@@ -237,7 +236,7 @@ export default ({
         price: "200,000 VNĐ",
         rating: "4.8",
         reviews: "118",
-        url: "#",
+        url: "/TTAqua",
       },
     ],
   },
@@ -249,6 +248,7 @@ export default ({
    */
   const tabsKeys = Object.keys(tabs);
   const [activeTab, setActiveTab] = useState(tabsKeys[0]);
+  var token = localStorage.getItem("token");
 
   return (
     <Container>
@@ -323,7 +323,7 @@ export default ({
                   <CardText>
                     <CardTitle>{card.title}</CardTitle>
                     <CardContent>{card.content}</CardContent>
-                    <CardPrice>{card.price}</CardPrice>
+                    <CardPrice>{token === "true" ? card.price : "Liên hệ"}</CardPrice>
                   </CardText>
                 </Card>
               </CardContainer>

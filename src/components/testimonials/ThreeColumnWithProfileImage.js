@@ -30,22 +30,22 @@ export default ({
       imageSrc:
         "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
       quote:
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
-      customerName: "Charlotte Hale"
+        "Sản phẩm của công ty Toàn Thắng không chỉ chất lượng mà còn đáng tin cậy. Chúng tôi hoàn toàn tin tưởng vào nguồn cung ứng của họ.",
+      // customerName: "Charlotte Hale"
     },
     {
       imageSrc:
         "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",
       quote:
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
-      customerName: "Adam Cuppy"
+        "Chúng tôi rất ấn tượng với sản phẩm thuỷ sản của công ty Toàn Thắng. Chất lượng cao, đa dạng và luôn đảm bảo nguồn gốc",
+      // customerName: "Adam Cuppy"
     },
     {
       imageSrc:
         "https://images.unsplash.com/photo-1580852300654-03c803a14e24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4.25&w=512&h=512&q=80",
       quote:
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
-      customerName: "Steven Marcetti"
+        "Công ty Toàn Thắng luôn đặt chất lượng sản phẩm lên hàng đầu, điều này được thể hiện rõ qua sản phẩm thuỷ sản của họ",
+      // customerName: "Steven Marcetti"
     }
   ]
 }) => {

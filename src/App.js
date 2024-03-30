@@ -119,6 +119,8 @@ import LiverTonic from "./detail/LiverTonic";
 import AquaCrub from "./detail/AquaCrub";
 import TTZ from "./detail/TTZ";
 import AllCide from "./detail/AllCide";
+import ToxinSSe from "./detail/ToxinSSe";
+import TTAqua from "./detail/TTAqua";
 
 export default function App() {
   // If you want to disable the animation just use the disabled `prop` like below on your page's component
@@ -150,6 +152,9 @@ export default function App() {
           <Route path="/AquaCrub" element={<AquaCrub />} />
           <Route path="/TTZ" element={<TTZ />} />
           <Route path="/AllCide" element={<AllCide />} />
+          <Route path="/ToxinSSe" element={<ToxinSSe />} />
+           <Route path="/TTAqua" element={<TTAqua />} />
+          
         </Routes>
       </Router>
     </>

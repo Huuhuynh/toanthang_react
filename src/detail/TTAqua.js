@@ -6,7 +6,7 @@ import Footer from "../components/footers/FiveColumnWithInputForm.js";
 import Header from "../components/headers/light";
 import MainFeature from "../components/features/TwoColWithButton.js";
 
-import InstructionImage_1 from "../images/product/bg12.jpg";
+import InstructionImage_1 from "../images/product/bg21.jpg";
 
 export default () => {
   const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
@@ -23,13 +23,11 @@ export default () => {
         // subheading={<Subheading>Chống Stress</Subheading>}
         heading={
           <>
-            ALL CIDE
-            <br/>
+            TT - AQUA +
+            <br />
             {token === "true" ? (
               <HighlightedTextInverse>
-                <p>200g/lon | 310,000 VNĐ | 30 lon/ thùng</p>
-                <p>500g/lon | 775,000 VNĐ | 30 lon/ thùng</p>
-                <p>1kg/lon | 1,540,000 VNĐ | 20 lon/ thùng</p>
+                <p>250g/gói | 200,000 VNĐ | 40 gói/ thùng</p>
               </HighlightedTextInverse>
             ) : (
               <HighlightedText>Liên Hệ Giá</HighlightedText>
@@ -40,12 +38,11 @@ export default () => {
           <Description>
             <strong>CÔNG DỤNG: </strong>
             <p>
-              Phòng và trị ao nuôi tôm, cá bị nhiễm nấm <br />
-              Phòng và trị nấm đồng tiền (nấm chân chó), nguyên sinh động vật,
-              nhớt nước trên tôm. <br />
-              Phòng và trị tôm, cá nuôi bị nhiễm nấm thủy mi (saprolegnia spp),
-              trùng quả dưa (Ichthyophthyrius spp) trên cá, đặc biệt ở giai đoạn
-              cá hương và cá giống.
+              Vi sinh chuyên cắt tảo xanh hiệu quả, chuyển đổi màu nước, giảm
+              tảo phát triển quá mức, làm sạch nước ao nuôi, kích thích tôm ăn
+              mạnh. <br />
+              Cung cấp vi sinh và các enzyme có lợi cho ao nuôi tôm, giúp phân
+              hủy các chất thải hữu cơ.
             </p>
             <p>
               HƯỚNG DẪN SỬ DỤNG: Hòa tan ALL CIDE vào nước tạt đều khắp ao.{" "}
@@ -54,9 +51,8 @@ export default () => {
               Thời gian ngưng sử dụng thuốc: không có. <br />
               ĐIỀU KIỆN BẢO QUẢN: Nơi khô mát, trắng ánh sáng trực tiếp, nhiệt
               độ không quá 30oC, để xa tầm tay trẻ em. <br />
-              Thể tích thực:1lit <br />
-              SĐK: HCM.TS85-13 <br />
-              NSX, số lô,HSD: Xem trên bao bì. <br />
+              Thể tích thực: 250g <br />
+              NSX, số lô,HSD: 2 năm kể từ ngày sản xuất <br />
               CHỈ DÙNG TRONG NUÔI TRỒNG THỦY SẢN <br />
               Sản phẩm không chứa các chất cấm sử dụng trong sản xuất, kinh
               doanh thủy sản theo các quy định hiện hành của Bộ NN&PTNT
@@ -67,38 +63,22 @@ export default () => {
           <Description2>
             <strong>THÀNH PHẦN: Trong 1 kg sản phẩm </strong>
             <p>
-              Bronopol 350g
+              Bacillus spp. (B. pumiplus, B. coagulans) (min) 3 x 1010cfu/kg{" "}
               <br />
-              Dung môi vừa đủ 1 lít
-              <br />
+              Lactobacillus acidophilus (min) 3x1010 cfu/kg <br />
+              Xylanase (min) …………………………………………………………………………..50.000 UI/kg <br />
+              Protease (min) …………………………………………………………………………..120.000 UI/kg <br />
+              Cellulase (min) ………………………………………………………………………….100.000 UI/kg <br />
+              Amylase (min) ………………………………………………………………………….100.000 UI/kg <br />
+              Chất đệm (Dextrose) vừa đủ……………………………………………………………..…………1kg <br />
+              Độ ẩm (max) ……………………………………………………………………………………....10%
             </p>
             <strong>HƯỚNG DẪN SỬ DỤNG: </strong>
             <p>
-              Trên tôm:
-              <br />
-              Chuẩn bị ao: trước khi thả tôm giống 4 ngày tạt 1lit/1.000 m3
-              nước.
-              <br />
-              Định kỳ: 1 lít/2.000m3 nước, 1 tuần 1 đợt.
-              <br />
-              Khi ao xảy ra nấm: 1lit/500m3 nước/ chà bạt bờ trước khi tạt thuốc
-              và sau khi tạt thuốc 24 giờ, sau đó si phông
-              <br />
-              Trên cá: <br />
-              Phòng bệnh: định kỳ 7 – 10 ngày tạt 1 lần, dùng 1 lít ALL CIDE pha
-              loãng với nước tạt cho 8.000 – 10.000 m3 nước.
-              <br />
-              Trị bệnh:
-              <br />
-              Cá hương và cá giống: dùng 1 lít ALL CIDE pha loãng với nước tạt
-              cho 6.000 – 8.000m3 nước.
-              <br />
-              Cá thịt: dùng 1 lit ALL CIDE pha loãng với nước tạt cho 5.000m3
-              nước.
-              <br />
-              Trị nấm nhớt trên cá rô: Dùng 1 lít ALL CIDE pha loãng với nước
-              tạt cho 4.000m3 nước, sử dụng liên tục 4 lần, mỗi lần cách nhau 1
-              ngày.
+              Giảm tảo phát triển quá mức: 250g/2.000m3 nước. <br />
+              Khi nước ao nuôi bị tảo xanh: 250g/1.000m3 nước. <br />
+              Hòa tan 250g TT – AQUA + với 20 lít nước sạch, sau đó tạt đều khắp
+              ao. Thời điểm sử dụng tốt nhất từ 5 - 6 giờ chiều.
             </p>
           </Description2>
         }

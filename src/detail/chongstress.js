@@ -10,8 +10,7 @@ import InstructionImage_1 from "../images/product/bg1.jpg";
 
 export default () => {
   const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
-  const Subheading = tw.span`tracking-wider text-sm font-medium`;
-  const HighlightedTextInverse = tw.span`bg-gray-100 text-primary-500 px-4 transform -skew-x-12 inline-block`;
+  const HighlightedTextInverse = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block text-lg`;
   const Description = tw.span`inline-block mt-8`;
   const Description2 = tw.span`inline-block mt-8`;
   const imageCss = tw`rounded-4xl`;
@@ -25,9 +24,13 @@ export default () => {
         heading={
           <>
             Chống Stress
-            <wbr /> {
-              token=== "true"? <HighlightedText>300000 VNĐ</HighlightedText> : <HighlightedText>Liên Hệ Giá</HighlightedText>
-            } 
+            {token === "true" ? (
+              <HighlightedTextInverse>
+                <p>1 lít/chai | 199,000 VNĐ | 20 chai/ thùng</p>
+              </HighlightedTextInverse>
+            ) : (
+              <HighlightedText>Liên Hệ Giá</HighlightedText>
+            )}
           </>
         }
         description={

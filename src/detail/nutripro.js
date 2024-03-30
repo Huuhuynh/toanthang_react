@@ -10,11 +10,11 @@ import InstructionImage_1 from "../images/product/bg17.jpeg";
 
 export default () => {
   const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
-  const Subheading = tw.span`tracking-wider text-sm font-medium`;
-  const HighlightedTextInverse = tw.span`bg-gray-100 text-primary-500 px-4 transform -skew-x-12 inline-block`;
+  const HighlightedTextInverse = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block text-lg`;
   const Description = tw.span`inline-block mt-8`;
   const Description2 = tw.span`inline-block mt-8`;
   const imageCss = tw`rounded-4xl`;
+  var token = localStorage.getItem("token");
 
   return (
     <AnimationRevealPage>
@@ -23,8 +23,15 @@ export default () => {
         // subheading={<Subheading>Chống Stress</Subheading>}
         heading={
           <>
-           NUTRI PRO
-            <wbr /> <HighlightedText>Liên Hệ Giá</HighlightedText>
+            NUTRI PRO
+            {token === "true" ? (
+              <HighlightedTextInverse>
+                <p>500g/lon | 180,000 VNĐ | 30 lon/ thùng</p>
+                <p>1kg/lon | 350,000 VNĐ | 20 lon/ thùng</p>
+              </HighlightedTextInverse>
+            ) : (
+              <HighlightedText>Liên Hệ Giá</HighlightedText>
+            )}
           </>
         }
         description={

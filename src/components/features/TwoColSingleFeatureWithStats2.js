@@ -40,14 +40,14 @@ const DecoratorBlob = styled(SvgDotPattern)(props => [
 ]);
 
 export default ({
-  subheading = "Our Track Record",
+  // subheading = "Our Track Record",
   heading = (
     <>
       We have been doing this <wbr /> since <span tw="text-primary-500">1999.</span>
     </>
   ),
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  primaryButtonText = "Learn More",
+  description = "Đối với chúng tôi, uy tín không chỉ là một từ ngữ mà còn là cam kết. Với việc áp dụng các công nghệ tiên tiến và quy trình sản xuất chất lượng, chúng tôi tự hào mang đến cho khách hàng những sản phẩm thuỷ sản chất lượng nhất.",
+  // primaryButtonText = "Learn More",
   primaryButtonUrl = "https://timerse.com",
   imageSrc = StatsIllustrationSrc,
   imageCss = null,
@@ -86,7 +86,7 @@ export default ({
         </ImageColumn>
         <TextColumn textOnLeft={textOnLeft}>
           <TextContent>
-            {subheading && <Subheading>{subheading}</Subheading>}
+            {/* {subheading && <Subheading>{subheading}</Subheading>} */}
             <Heading>{heading}</Heading>
             <Description>{description}</Description>
             <Statistics>
@@ -97,9 +97,9 @@ export default ({
                 </Statistic>
               ))}
             </Statistics>
-            <PrimaryButton as="a" href={primaryButtonUrl}>
+            {/* <PrimaryButton as="a" href={primaryButtonUrl}>
               {primaryButtonText}
-            </PrimaryButton>
+            </PrimaryButton> */}
           </TextContent>
         </TextColumn>
       </TwoColumn>

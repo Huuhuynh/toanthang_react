@@ -45,7 +45,7 @@ export default ({
   subheading = "Sản phẩm: ",
   heading = (
     <>
-      Designed & Developed by <span tw="text-primary-500">Professionals.</span>
+      {/* Designed & Developed by <span tw="text-primary-500">Professionals.</span> */}
     </>
   ),
   description = "",

@@ -12,7 +12,7 @@ import DownloadApp from "../components/cta/DownloadApp.js";
 import Footer from "../components/footers/FiveColumnWithInputForm.js";
 import Header from "../components/headers/light";
 
-import chefIconImageSrc from "../images/chef-icon.svg";
+// import chefIconImageSrc from "../images/chef-icon.svg";
 import celebrationIconImageSrc from "../images/celebration-icon.svg";
 import shopIconImageSrc from "../images/shop-icon.svg";
 import bg_tom from "../images/product/bg_tom.jpeg";
