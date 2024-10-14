@@ -1,4 +1,3 @@
-import { css } from "styled-components/macro"; //eslint-disable-line
 
 /*
  * This is the entry point component of this project. You can change the below exported default App component to any of
@@ -99,9 +98,6 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 // import PrivacyPolicyPage from "pages/PrivacyPolicy.js";
 import React from "react";
 import GlobalStyles from "./styles/GlobalStyles";
-import ComponentRenderer from "./ComponentRenderer";
-import MainLandingPage from "./MainLandingPage";
-import ThankYouPage from "./ThankYouPage";
 import RestaurantLandingPage from "./demos/RestaurantLandingPage";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";

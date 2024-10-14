@@ -1,7 +1,6 @@
 import React from "react";
 import tw from "twin.macro";
 import AnimationRevealPage from "../helpers/AnimationRevealPage.js";
-import TabGrid from "../components/cards/TabCardGrid.js";
 import Footer from "../components/footers/FiveColumnWithInputForm.js";
 import Header from "../components/headers/light";
 import MainFeature from "../components/features/TwoColWithButton.js";

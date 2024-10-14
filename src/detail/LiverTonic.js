@@ -1,7 +1,6 @@
 import React from "react";
 import tw from "twin.macro";
 import AnimationRevealPage from "../helpers/AnimationRevealPage.js";
-import TabGrid from "../components/cards/TabCardGrid.js";
 import Footer from "../components/footers/FiveColumnWithInputForm.js";
 import Header from "../components/headers/light";
 import MainFeature from "../components/features/TwoColWithButton.js";
@@ -10,8 +9,6 @@ import InstructionImage_1 from "../images/product/bg16.jpg";
 
 export default () => {
   const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
-  const Subheading = tw.span`tracking-wider text-sm font-medium`;
-  const HighlightedTextInverse = tw.span`bg-gray-100 text-primary-500 px-4 transform -skew-x-12 inline-block`;
   const Description = tw.span`inline-block mt-8`;
   const Description2 = tw.span`inline-block mt-8`;
   const imageCss = tw`rounded-4xl`;
