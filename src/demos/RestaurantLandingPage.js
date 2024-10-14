@@ -15,7 +15,7 @@ import chefIconImageSrc from "../images/chef-icon.png";
 import celebrationIconImageSrc from "../images/celebration-icon.svg";
 import shopIconImageSrc from "../images/shop-icon.svg";
 import bg_tom from "../images/product/bg_tom.jpeg";
-import bg_tom_2 from "../images/bg/bg1.png";
+// import bg_tom_2 from "../images/bg/bg1.png";
 
 export default () => {
   const Subheading = tw.span`tracking-wider text-sm font-medium`;
@@ -99,7 +99,7 @@ export default () => {
         // primaryButtonText="Order Now"
         primaryButtonUrl="https://order.now.com"
         imageInsideDiv={false}
-        imageSrc= {bg_tom_2}
+        // imageSrc= {bg_tom_2}
         imageCss={Object.assign(tw`bg-cover`, imageCss)}
         imageContainerCss={tw`md:w-1/2 h-auto`}
         imageDecoratorBlob={true}
