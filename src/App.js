@@ -102,9 +102,9 @@ import RestaurantLandingPage from "./demos/RestaurantLandingPage";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Product from "./demos/Product";
-import Chongstress from "./detail/chongstress";
-import Nutripro from "./detail/nutripro";
-import TTPathoStop from "./detail/TTPathoStop";
+import Songstress from "./detail/chongstress";
+import Nutrition from "./detail/nutripro";
+import TTPatholStop from "./detail/TTPathoStop";
 import Inobitol from "./detail/Inobitol";
 import Login from "./pages/Login";
 import TTHepaFix from "./detail/TTHepaFix";
@@ -112,7 +112,7 @@ import TTLiverBoost from "./detail/TTLiverBoost";
 import TTLiverSur from "./detail/TTLiverSur";
 import SulBSC from "./detail/SulBSC";
 import LiverTonic from "./detail/LiverTonic";
-import AquaCrub from "./detail/AquaCrub";
+import AquaCurb from "./detail/AquaCrub";
 import TTZ from "./detail/TTZ";
 import AllCide from "./detail/AllCide";
 import ToxinSSe from "./detail/ToxinSSe";
@@ -136,16 +136,16 @@ export default function App() {
           <Route path="/" element={<MainLandingPage />} />
                <Route path="/thank-you" element={<ThankYouPage />} /> */}
 
-          <Route path="/chongstress" element={<Chongstress />} />
-          <Route path="/nutripro" element={<Nutripro />} />
-          <Route path="/ttpathostop" element={<TTPathoStop />} />
+          <Route path="/chongstress" element={<Songstress />} />
+          <Route path="/nutripro" element={<Nutrition />} />
+          <Route path="/ttpathostop" element={<TTPatholStop />} />
           <Route path="/inobitol" element={<Inobitol />} />
           <Route path="/TTHepaFix" element={<TTHepaFix />} />
           <Route path="/TTLiverBoost" element={<TTLiverBoost />} />
           <Route path="/TTLiverSur" element={<TTLiverSur />} />
           <Route path="/SulBSC" element={<SulBSC />} />
           <Route path="/LiverTonic" element={<LiverTonic />} />
-          <Route path="/AquaCrub" element={<AquaCrub />} />
+          <Route path="/AquaCrub" element={<AquaCurb />} />
           <Route path="/TTZ" element={<TTZ />} />
           <Route path="/AllCide" element={<AllCide />} />
           <Route path="/ToxinSSe" element={<ToxinSSe />} />
