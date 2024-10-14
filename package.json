@@ -1,5 +1,6 @@
 {
-  "name": "treact",
+  "name": "toanthangcommerce",
+  "homepage": "http://toanthangcommerce.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
