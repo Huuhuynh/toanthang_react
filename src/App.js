@@ -100,7 +100,7 @@ import React from "react";
 import GlobalStyles from "./styles/GlobalStyles";
 import RestaurantLandingPage from "./demos/RestaurantLandingPage";
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Product from "./demos/Product";
 import Songstress from "./detail/chongstress";
 import Nutrition from "./detail/nutripro";
@@ -123,19 +123,13 @@ export default function App() {
   // return <AnimationRevealPage disabled>xxxxxxxxxx</AnimationRevealPage>;
 
   return (
-    <>
+    <BrowserRouter>
       <GlobalStyles />
-      <Router>
+
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/" element={<RestaurantLandingPage />} />
           <Route path="/product" element={<Product />} />
-
-          {/* <Route path="/components/:type/:name" element={<ComponentRenderer />} />
-           <Route path="/components/:type/:subtype/:name" element={<ComponentRenderer />}/>
-          <Route path="/" element={<MainLandingPage />} />
-               <Route path="/thank-you" element={<ThankYouPage />} /> */}
-
           <Route path="/chongstress" element={<Songstress />} />
           <Route path="/nutripro" element={<Nutrition />} />
           <Route path="/ttpathostop" element={<TTPatholStop />} />
@@ -152,8 +146,8 @@ export default function App() {
            <Route path="/TTAqua" element={<TTAqua />} />
           
         </Routes>
-      </Router>
-    </>
+     
+        </BrowserRouter>
   );
 }
 
