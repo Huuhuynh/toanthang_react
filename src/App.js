@@ -100,7 +100,7 @@ import React from "react";
 import GlobalStyles from "./styles/GlobalStyles";
 import RestaurantLandingPage from "./demos/RestaurantLandingPage";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Product from "./demos/Product";
 import Songstress from "./detail/chongstress";
 import Nutrition from "./detail/nutripro";
@@ -123,7 +123,7 @@ export default function App() {
   // return <AnimationRevealPage disabled>xxxxxxxxxx</AnimationRevealPage>;
 
   return (
-    <BrowserRouter>
+    <Router>
       <GlobalStyles />
 
         <Routes>
@@ -147,7 +147,7 @@ export default function App() {
           
         </Routes>
      
-        </BrowserRouter>
+        </Router>
   );
 }
 
