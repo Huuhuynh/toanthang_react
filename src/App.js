@@ -1,4 +1,3 @@
-
 /*
  * This is the entry point component of this project. You can change the below exported default App component to any of
  * the prebuilt landing page components by uncommenting their import and export lines respectively.
@@ -100,7 +99,7 @@ import React from "react";
 import GlobalStyles from "./styles/GlobalStyles";
 import RestaurantLandingPage from "./demos/RestaurantLandingPage";
 
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Product from "./demos/Product";
 import Songstress from "./detail/chongstress";
 import Nutrition from "./detail/nutripro";
@@ -117,6 +116,8 @@ import TTZ from "./detail/TTZ";
 import AllCide from "./detail/AllCide";
 import ToxinSSe from "./detail/ToxinSSe";
 import TTAqua from "./detail/TTAqua";
+import ListPost from "./admin/ListPost";
+import CreatePost from "./admin/CreatePost";
 
 export default function App() {
   // If you want to disable the animation just use the disabled `prop` like below on your page's component
@@ -126,28 +127,28 @@ export default function App() {
     <Router>
       <GlobalStyles />
 
-        <Routes>
-          <Route path="/login" element={<Login />} />
-          <Route path="/" element={<RestaurantLandingPage />} />
-          <Route path="/product" element={<Product />} />
-          <Route path="/chongstress" element={<Songstress />} />
-          <Route path="/nutripro" element={<Nutrition />} />
-          <Route path="/ttpathostop" element={<TTPatholStop />} />
-          <Route path="/inobitol" element={<Inobitol />} />
-          <Route path="/TTHepaFix" element={<TTHepaFix />} />
-          <Route path="/TTLiverBoost" element={<TTLiverBoost />} />
-          <Route path="/TTLiverSur" element={<TTLiverSur />} />
-          <Route path="/SulBSC" element={<SulBSC />} />
-          <Route path="/LiverTonic" element={<LiverTonic />} />
-          <Route path="/AquaCrub" element={<AquaCurb />} />
-          <Route path="/TTZ" element={<TTZ />} />
-          <Route path="/AllCide" element={<AllCide />} />
-          <Route path="/ToxinSSe" element={<ToxinSSe />} />
-           <Route path="/TTAqua" element={<TTAqua />} />
-          
-        </Routes>
-     
-        </Router>
+      <Routes>
+        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<RestaurantLandingPage />} />
+        <Route path="/product" element={<Product />} />
+        <Route path="/chongstress" element={<Songstress />} />
+        <Route path="/nutripro" element={<Nutrition />} />
+        <Route path="/ttpathostop" element={<TTPatholStop />} />
+        <Route path="/inobitol" element={<Inobitol />} />
+        <Route path="/TTHepaFix" element={<TTHepaFix />} />
+        <Route path="/TTLiverBoost" element={<TTLiverBoost />} />
+        <Route path="/TTLiverSur" element={<TTLiverSur />} />
+        <Route path="/SulBSC" element={<SulBSC />} />
+        <Route path="/LiverTonic" element={<LiverTonic />} />
+        <Route path="/AquaCrub" element={<AquaCurb />} />
+        <Route path="/TTZ" element={<TTZ />} />
+        <Route path="/AllCide" element={<AllCide />} />
+        <Route path="/ToxinSSe" element={<ToxinSSe />} />
+        <Route path="/TTAqua" element={<TTAqua />} />
+        <Route path="/listport" element={<ListPost />} />
+        <Route path="/createport" element={<CreatePost />} />
+      </Routes>
+    </Router>
   );
 }
 
