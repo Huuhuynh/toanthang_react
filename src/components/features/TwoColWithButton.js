@@ -8,11 +8,11 @@ import TeamIllustrationSrc from "../../images/team-illustration-2.svg";
 import {ReactComponent as SvgDotPattern } from "../../images/dot-pattern.svg"
 
 const Container = tw.div`relative`;
-const TwoColumn = tw.div`flex flex-col md:flex-row justify-between max-w-screen-xl mx-auto py-20 md:py-24 items-center`;
+const TwoColumn = tw.div`flex flex-col md:flex-row justify-between max-w-screen-xl mx-auto items-center`;
 const Column = tw.div`w-full max-w-md mx-auto md:max-w-none md:mx-0`;
-const ImageColumn = tw(Column)`md:w-6/12 flex-shrink-0 relative`;
+const ImageColumn = tw(Column)`md:w-4/12`;
 const TextColumn = styled(Column)(props => [
-  tw`md:w-6/12 mt-16 md:mt-0`,
+  tw`md:w-8/12 mt-16 md:mt-0`,
   props.textOnLeft ? tw`md:mr-12 lg:mr-16 md:order-first` : tw`md:ml-12 lg:ml-16 md:order-last`
 ]);
 
@@ -32,8 +32,8 @@ const Subheading = tw(SubheadingBase)`text-center md:text-left`;
 const Heading = tw(
   SectionHeading
 )`mt-4 font-black text-left text-3xl sm:text-4xl lg:text-5xl text-center md:text-left leading-tight`;
-const Description = tw.p`mt-4 text-center md:text-left text-sm md:text-base lg:text-lg font-medium leading-relaxed text-secondary-100`;
-const Description2 = tw.p`mt-4 text-center md:text-left text-sm md:text-base lg:text-lg font-medium leading-relaxed text-secondary-100`;
+const Description = tw.p`mt-4 text-center md:text-left text-sm md:text-sm lg:text-sm font-medium leading-relaxed text-black`;
+const Description2 = tw.p`mt-4 text-center md:text-left text-sm md:text-sm lg:text-sm font-medium leading-relaxed text-black`;
 
 const PrimaryButton = styled(PrimaryButtonBase)(props => [
   tw`mt-8 md:mt-8 text-sm inline-block mx-auto md:mx-0`,
@@ -70,14 +70,16 @@ export default ({
         <ImageColumn>
           <Image css={imageCss} src={imageSrc} imageBorder={imageBorder} imageShadow={imageShadow} imageRounded={imageRounded}/>
           {imageDecoratorBlob && <DecoratorBlob css={imageDecoratorBlobCss} />}
-          <Description2>{description2}</Description2>
+       
         </ImageColumn>
 
         <TextColumn textOnLeft={textOnLeft}>
         <TextContent>
-            <Subheading>{subheading}</Subheading>
+    
             <Heading>{heading}</Heading>
+            <Subheading>{subheading}</Subheading>
             <Description>{description}</Description>
+            <Description2>{description2}</Description2>
             <PrimaryButton buttonRounded={buttonRounded} as="a" href={primaryButtonUrl}>
               {primaryButtonText}
             </PrimaryButton>

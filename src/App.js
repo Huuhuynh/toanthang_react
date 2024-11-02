@@ -118,6 +118,19 @@ import ToxinSSe from "./detail/ToxinSSe";
 import TTAqua from "./detail/TTAqua";
 import ListPost from "./admin/ListPost";
 import CreatePost from "./admin/CreatePost";
+import FlorSol from "./detail/FlorSol";
+import ANTIPARA from "./detail/dactribenh/ANTIPARA";
+import CANXIONE from "./detail/dinhduong/CANXIONE ";
+import CHELATE from "./detail/dinhduong/CHELATE";
+import PROTAMIN from "./detail/dinhduong/PROTAMIN";
+import NUTRIGANO from "./detail/dinhduong/NUTRIGANO";
+import SUPERCANXI from "./detail/dinhduong/SUPERCANXI";
+import Tangtrong from "./detail/dinhduong/tangtrong";
+import VITAAMIN from "./detail/dinhduong/VITAAMIN";
+import C14 from "./detail/tieuhoa/C14";
+import ENVIZYME from "./detail/tieuhoa/ENVIZYME";
+import FEEDMULTIZYME from "./detail/tieuhoa/FEEDMULTIZYME";
+import PRAZIWS from "./detail/moitruong/PRAZIWS";
 
 export default function App() {
   // If you want to disable the animation just use the disabled `prop` like below on your page's component
@@ -147,6 +160,19 @@ export default function App() {
         <Route path="/TTAqua" element={<TTAqua />} />
         <Route path="/listport" element={<ListPost />} />
         <Route path="/createport" element={<CreatePost />} />
+        <Route path="/florsol" element={<FlorSol />} />
+        <Route path="/ANTIPARA" element={<ANTIPARA />} />
+        <Route path="/canxione" element={<CANXIONE />} />
+        <Route path="/CHELATE" element={<CHELATE/>} />
+        <Route path="/PROTAMIN" element={<PROTAMIN/>} />
+        <Route path="/NUTRIGANO" element={<NUTRIGANO/>} />
+        <Route path="/SUPER_CANXI" element={<SUPERCANXI/>} />
+        <Route path="/tangtrong" element={<Tangtrong/>} />
+        <Route path="/VITAAMIN" element={<VITAAMIN/>} />
+        <Route path="/C14" element={<C14/>} />
+        <Route path="/ENVIZYME" element={<ENVIZYME/>} />
+        <Route path="/FEEDMULTIZYME" element={<FEEDMULTIZYME/>} />
+        <Route path="/PRAZIWS" element={<PRAZIWS/>} />
       </Routes>
     </Router>
   );
