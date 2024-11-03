@@ -5,7 +5,7 @@ import Footer from "../components/footers/FiveColumnWithInputForm.js";
 import Header from "../components/headers/light";
 import MainFeature from "../components/features/TwoColWithButton.js";
 
-import InstructionImage_1 from "../images/product/bg18.jpg";
+import InstructionImage_1 from "../images/product/bg18.png";
 
 export default () => {
   const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
@@ -19,11 +19,11 @@ export default () => {
     <AnimationRevealPage>
       <Header />
       <MainFeature
-        // subheading={<Subheading>Chống Stress</Subheading>}
+        subheading={'BỔ SUNG LỢI KHUẨN ĐỂ THIẾT LẬP LẠI HỆ THỰC VẬT ĐƯỜNG RUỘT, NGĂN NGỪA HIỆN TƯỢNG PHÂN LỎNG, PHÂN TRẮNG TRÊN TÔM'}
         heading={
           <>
             AQUA CRUB
-            <br />
+            {/* <br />
             {token === "true" ? (
               <HighlightedTextInverse>
                 <p>200g/lon | 280,000 VNĐ | 40 lon/ thùng</p>
@@ -32,7 +32,7 @@ export default () => {
               </HighlightedTextInverse>
             ) : (
               <HighlightedText>Liên Hệ Giá</HighlightedText>
-            )}
+            )} */}
           </>
         }
         description={

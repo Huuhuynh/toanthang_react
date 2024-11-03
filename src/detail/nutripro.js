@@ -5,7 +5,7 @@ import Footer from "../components/footers/FiveColumnWithInputForm.js";
 import Header from "../components/headers/light";
 import MainFeature from "../components/features/TwoColWithButton.js";
 
-import InstructionImage_1 from "../images/product/bg17.jpeg";
+import InstructionImage_1 from "../images/product/bg17.png";
 
 export default () => {
   const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
@@ -19,18 +19,18 @@ export default () => {
     <AnimationRevealPage>
       <Header />
       <MainFeature
-        // subheading={<Subheading>Chống Stress</Subheading>}
+        subheading={'LÀM DÀY THÀNH RUỘT TÔM, BẢO VỆ VÀ PHÁT TRIỂN NHUNG MAO RUỘT GIÚP TÔM SINH TRƯỞNG VÀ PHÁT TRIỂN TỐT'}
         heading={
           <>
             NUTRI PRO
-            {token === "true" ? (
+            {/* {token === "true" ? (
               <HighlightedTextInverse>
                 <p>500g/lon | 180,000 VNĐ | 30 lon/ thùng</p>
                 <p>1kg/lon | 350,000 VNĐ | 20 lon/ thùng</p>
               </HighlightedTextInverse>
             ) : (
               <HighlightedText>Liên Hệ Giá</HighlightedText>
-            )}
+            )} */}
           </>
         }
         description={

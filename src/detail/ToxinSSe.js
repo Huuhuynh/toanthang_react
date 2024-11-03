@@ -19,18 +19,18 @@ export default () => {
     <AnimationRevealPage>
       <Header />
       <MainFeature
-        // subheading={<Subheading>Chống Stress</Subheading>}
+        subheading={'GIẢI ĐỘC NƯỚC, GIẢM NHỚT NƯỚC VÀ VÁNG BỌT, KHỬ KIM LOẠI NẶNG, LẮNG TỤ CÁC CHẤT LƠ LỬNG TRONG AO NUÔI TÔM, CÁ'}
         heading={
           <>
             TOXIN SSE
-            <br />
+            {/* <br />
             {token === "true" ? (
               <HighlightedTextInverse>
                 <p>2lit/cal | 120,000 VNĐ | 10 cal/ thùng</p>
               </HighlightedTextInverse>
             ) : (
               <HighlightedText>Liên Hệ Giá</HighlightedText>
-            )}
+            )} */}
           </>
         }
         description={

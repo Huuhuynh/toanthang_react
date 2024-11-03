@@ -82,7 +82,7 @@ export default ({
       <NavLink href="/">Trang chủ</NavLink>
       <NavLink href="/product">Sản phẩm</NavLink>
       <NavLink href="/#">Dịch vụ</NavLink>
-      <NavLink href="/#">Về chúng tôi</NavLink>
+      <NavLink href="/info">Về chúng tôi</NavLink>
       <NavLink href="/#">Liên hệ</NavLink>
       {/* <NavLink href="/login" tw="lg:ml-12!">
         Login

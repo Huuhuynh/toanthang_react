@@ -5,7 +5,7 @@ import Footer from "../components/footers/FiveColumnWithInputForm.js";
 import Header from "../components/headers/light";
 import MainFeature from "../components/features/TwoColWithButton.js";
 
-import InstructionImage_1 from "../images/product/bg4.jpg";
+import InstructionImage_1 from "../images/product/bg4.png";
 
 export default () => {
   const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
@@ -17,11 +17,11 @@ export default () => {
     <AnimationRevealPage>
       <Header />
       <MainFeature
-        // subheading={<Subheading>Chống Stress</Subheading>}
+        subheading={'TĂNG CƯỜNG HỆ MIỄN DỊCH, TÔM SINH TRƯỞNG VÀ PHÁT TRIỂN TỐT'}
         heading={
           <>
             TT PATHO STOP
-            <wbr /> <HighlightedText>Liên Hệ Giá</HighlightedText>
+            {/* <wbr /> <HighlightedText>Liên Hệ Giá</HighlightedText> */}
           </>
         }
         description={

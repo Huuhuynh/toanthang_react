@@ -131,6 +131,9 @@ import C14 from "./detail/tieuhoa/C14";
 import ENVIZYME from "./detail/tieuhoa/ENVIZYME";
 import FEEDMULTIZYME from "./detail/tieuhoa/FEEDMULTIZYME";
 import PRAZIWS from "./detail/moitruong/PRAZIWS";
+import FOSFOTLS from "./detail/dactribenh/FOSFOTLS";
+import AQUABUSAL from "./detail/dinhduong/AQUABUSAL";
+import Info from "./demos/Info";
 
 export default function App() {
   // If you want to disable the animation just use the disabled `prop` like below on your page's component
@@ -173,6 +176,9 @@ export default function App() {
         <Route path="/ENVIZYME" element={<ENVIZYME/>} />
         <Route path="/FEEDMULTIZYME" element={<FEEDMULTIZYME/>} />
         <Route path="/PRAZIWS" element={<PRAZIWS/>} />
+        <Route path="/FOSFOTLS" element={<FOSFOTLS/>} />
+        <Route path="/AQUABUSAL" element={<AQUABUSAL/>} />
+        <Route path="/info" element={<Info/>} />
       </Routes>
     </Router>
   );

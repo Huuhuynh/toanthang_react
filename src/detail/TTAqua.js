@@ -19,18 +19,18 @@ export default () => {
     <AnimationRevealPage>
       <Header />
       <MainFeature
-        // subheading={<Subheading>Chống Stress</Subheading>}
+        subheading={'VI SINH CHUYÊN CẮT TẢO XANH, CHUYỂN ĐỔI MÀU NƯỚC, GIẢM TẢO PHÁT TRIỂN QUÁ MỨC'}
         heading={
           <>
             TT - AQUA +
-            <br />
+            {/* <br />
             {token === "true" ? (
               <HighlightedTextInverse>
                 <p>250g/gói | 200,000 VNĐ | 40 gói/ thùng</p>
               </HighlightedTextInverse>
             ) : (
               <HighlightedText>Liên Hệ Giá</HighlightedText>
-            )}
+            )} */}
           </>
         }
         description={

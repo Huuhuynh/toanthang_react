@@ -42,7 +42,7 @@ const PrimaryButton = styled(PrimaryButtonBase)(props => [
 
 
 export default ({
-  subheading = "Sản phẩm: ",
+  subheading = "",
   heading = (
     <>
       {/* Designed & Developed by <span tw="text-primary-500">Professionals.</span> */}

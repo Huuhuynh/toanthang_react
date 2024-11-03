@@ -5,7 +5,7 @@ import Footer from "../components/footers/FiveColumnWithInputForm.js";
 import Header from "../components/headers/light";
 import MainFeature from "../components/features/TwoColWithButton.js";
 
-import InstructionImage_1 from "../images/product/bg5.jpg";
+import InstructionImage_1 from "../images/product/bg5.png";
 
 export default () => {
   const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
@@ -19,17 +19,17 @@ export default () => {
     <AnimationRevealPage>
       <Header />
       <MainFeature
-        // subheading={<Subheading>Chống Stress</Subheading>}
+        subheading={'PHÒNG CÁC BỆNH VỀ GAN, PHỤC HỒI CHỨC NĂNG GAN NGĂN NGỪA BỆNH TEO GAN'}
         heading={
           <>
             TT - LIVER BOOST
-            {token === "true" ? (
+            {/* {token === "true" ? (
               <HighlightedTextInverse>
                 <p>1 lít/chai | 350,000 VNĐ | 20 chai/ thùng</p>
               </HighlightedTextInverse>
             ) : (
               <HighlightedText>Liên Hệ Giá</HighlightedText>
-            )}
+            )} */}
           </>
         }
         description={

@@ -9,21 +9,21 @@ import { PrimaryButton as PrimaryButtonBase } from "../misc/Buttons.js";
 import { ReactComponent as StarIcon } from "../../images/star-icon.svg";
 import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-5.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "../../images/svg-decorator-blob-7.svg";
-import InstructionImage_1 from "../../images/product/bg1.jpg";
+import InstructionImage_1 from "../../images/product/bg1.png";
 import InstructionImage_2 from "../../images/product/bg2.jpg";
-import InstructionImage_3 from "../../images/product/bg3.jpg";
-import InstructionImage_4 from "../../images/product/bg4.jpg";
-import InstructionImage_5 from "../../images/product/bg5.jpg";
-import InstructionImage_6 from "../../images/product/bg6.jpeg";
-import InstructionImage_7 from "../../images/product/bg7.jpg";
+import InstructionImage_3 from "../../images/product/bg3.png";
+import InstructionImage_4 from "../../images/product/bg4.png";
+import InstructionImage_5 from "../../images/product/bg5.png";
+import InstructionImage_6 from "../../images/product/bg6.png";
+import InstructionImage_7 from "../../images/product/bg7.png";
 import InstructionImage_8 from "../../images/product/bg9.png";
 import InstructionImage_9 from "../../images/product/bg10.png";
-import InstructionImage_10 from "../../images/product/bg11.jpg";
-import InstructionImage_11 from "../../images/product/bg12.jpg";
+import InstructionImage_10 from "../../images/product/bg11.png";
+import InstructionImage_11 from "../../images/product/bg12.png";
 import InstructionImage_12 from "../../images/product/bg15.jpg";
-import InstructionImage_13 from "../../images/product/bg16.jpg";
-import InstructionImage_14 from "../../images/product/bg17.jpeg";
-import InstructionImage_15 from "../../images/product/bg18.jpg";
+import InstructionImage_13 from "../../images/product/bg16.png";
+import InstructionImage_14 from "../../images/product/bg17.png";
+import InstructionImage_15 from "../../images/product/bg18.png";
 import InstructionImage_16 from "../../images/product/bg21.jpg";
 import florsol from "../../images/product/dactribenh/florsol.png";
 import ANTIPARA from "../../images/product/dactribenh/ANTIPARA.png";
@@ -109,7 +109,7 @@ export default ({
         content: "200g/lon",
         price: "310,000 VNĐ",
         rating: "4.8",
-        reviews: "32",
+        reviews: "312",
         url: "/TTHepaFix",
       },
       {
@@ -118,7 +118,7 @@ export default ({
         content: "200g/lon",
         price: "395,000 VNĐ",
         rating: "4.2",
-        reviews: "19",
+        reviews: "192",
         url: "/TTLiverBoost",
       },
       {
@@ -127,7 +127,7 @@ export default ({
         content: "1 lít/chai",
         price: "350,000 VNĐ",
         rating: "4.2",
-        reviews: "95",
+        reviews: "953",
         url: "/TTLiverSur",
       },
       {
@@ -137,15 +137,15 @@ export default ({
         price: "945,000 VNĐ",
         rating: "4.9",
         reviews: "210",
-        url: "#",
+        url: "/FOSFOTLS",
       },
       {
         imageSrc: InstructionImage_10,
         title: "SULBAC",
         content: "200g/lon",
         price: "365,000 VNĐ",
-        rating: "3.9",
-        reviews: "26",
+        rating: "4.9",
+        reviews: "634",
         url: "/SulBSC",
       },
       {
@@ -162,8 +162,8 @@ export default ({
         title: "FLOR SOL",
         content: "200g/lon",
         price: "365,000 VNĐ",
-        rating: "4.6",
-        reviews: "162",
+        rating: "4.7",
+        reviews: "573",
         url: "/florsol",
       },
       {
@@ -171,8 +171,8 @@ export default ({
         title: "PL – ANTIPARA",
         content: "200g/lon",
         price: "365,000 VNĐ",
-        rating: "4.6",
-        reviews: "162",
+        rating: "4.5",
+        reviews: "132",
         url: "/ANTIPARA",
       },
     ],
@@ -183,7 +183,7 @@ export default ({
         content: "1 lít/chai - 20 chai/ thùng",
         price: "Giá: Liên hệ",
         rating: "5.0",
-        reviews: "87",
+        reviews: "187",
         url: "/chongstress",
       },
       {
@@ -201,8 +201,8 @@ export default ({
         content: "500ml/chai",
         price: "290,000 VNĐ",
         rating: "3.9",
-        reviews: "26",
-        url: "#",
+        reviews: "126",
+        url: "/AQUABUSAL",
       },
       {
         imageSrc: InstructionImage_4,
@@ -210,7 +210,7 @@ export default ({
         content: "500ml/chai",
         price: "355,000 VNĐ",
         rating: "4.6",
-        reviews: "12",
+        reviews: "129",
         url: "/ttpathostop",
       },
       {
@@ -219,7 +219,7 @@ export default ({
         content: "500g/lon",
         price: "340,000 VNĐ",
         rating: "5.0",
-        reviews: "61",
+        reviews: "611",
         url: "/inobitol",
       },
       {
@@ -227,8 +227,8 @@ export default ({
         title: "CANXI ONE ",
         content: "500g/lon",
         price: "340,000 VNĐ",
-        rating: "5.0",
-        reviews: "61",
+        rating: "4.0",
+        reviews: "611",
         url: "/canxione",
       },
       {
@@ -236,8 +236,8 @@ export default ({
         title: "CHELATE",
         content: "500g/lon",
         price: "340,000 VNĐ",
-        rating: "5.0",
-        reviews: "61",
+        rating: "4.8",
+        reviews: "161",
         url: "/CHELATE",
       },
       {
@@ -246,7 +246,7 @@ export default ({
         content: "500g/lon",
         price: "340,000 VNĐ",
         rating: "5.0",
-        reviews: "61",
+        reviews: "478",
         url: "/PROTAMIN",
       },
       {
@@ -254,8 +254,8 @@ export default ({
         title: "NUTRIGANO",
         content: "500g/lon",
         price: "340,000 VNĐ",
-        rating: "5.0",
-        reviews: "61",
+        rating: "4.4",
+        reviews: "161",
         url: "/NUTRIGANO",
       },
       {
@@ -264,7 +264,7 @@ export default ({
         content: "500g/lon",
         price: "340,000 VNĐ",
         rating: "5.0",
-        reviews: "61",
+        reviews: "521",
         url: "/SUPER_CANXI ",
       },
       {
@@ -272,8 +272,8 @@ export default ({
         title: "TĂNG TRỌNG ",
         content: "500g/lon",
         price: "340,000 VNĐ",
-        rating: "5.0",
-        reviews: "61",
+        rating: "4.0",
+        reviews: "361",
         url: "/tangtrong ",
       },
       {
@@ -282,7 +282,7 @@ export default ({
         content: "500g/lon",
         price: "340,000 VNĐ",
         rating: "5.0",
-        reviews: "61",
+        reviews: "793",
         url: "/VITAAMIN ",
       },
     ],
@@ -293,7 +293,7 @@ export default ({
         content: "200g/lon",
         price: "280,000 VNĐ",
         rating: "4.6",
-        reviews: "216",
+        reviews: "136",
         url: "/AquaCrub",
       },
       {
@@ -301,8 +301,8 @@ export default ({
         title: "C 14",
         content: "200g/lon",
         price: "280,000 VNĐ",
-        rating: "4.6",
-        reviews: "216",
+        rating: "4.9",
+        reviews: "304",
         url: "/C14",
       },
       {
@@ -310,8 +310,8 @@ export default ({
         title: "ENVIZYME",
         content: "200g/lon",
         price: "280,000 VNĐ",
-        rating: "4.6",
-        reviews: "216",
+        rating: "4.3",
+        reviews: "745",
         url: "/ENVIZYME",
       },
       {
@@ -320,7 +320,7 @@ export default ({
         content: "200g/lon",
         price: "280,000 VNĐ",
         rating: "4.6",
-        reviews: "216",
+        reviews: "485",
         url: "/FEEDMULTIZYME",
       },
     ],
@@ -331,7 +331,7 @@ export default ({
         content: "350g/gói",
         price: "300,000 VNĐ",
         rating: "4.9",
-        reviews: "89",
+        reviews: "189",
         url: "/TTZ",
       },
       {
@@ -348,8 +348,8 @@ export default ({
         title: "TOXIN SSE",
         content: "200g/lon",
         price: "365,000 VNĐ",
-        rating: "3.9",
-        reviews: "26",
+        rating: "5.0",
+        reviews: "256",
         url: "/ToxinSSe",
       },
       {
@@ -366,8 +366,8 @@ export default ({
         title: "PRAZI WS",
         content: "250g/gói",
         price: "200,000 VNĐ",
-        rating: "4.8",
-        reviews: "118",
+        rating: "4.6",
+        reviews: "338",
         url: "/PRAZIWS",
       },
     ],
