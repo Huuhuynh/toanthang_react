@@ -9,9 +9,9 @@ import { CarouselImg } from "../components/cards/CarouselImg.js";
 
 export default () => {
   const Description2 = tw.span`inline-block`;
-  const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
+  const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block mt-8`;
   const Container = tw.div`relative`;
-  const TwoColumn = tw.div`flex flex-col justify-between max-w-screen-xl mx-auto py-20 md:py-24`;
+  const TwoColumn = tw.div`flex flex-col justify-between max-w-screen-xl mx-auto py-20 md:py-10`;
   return (
     <AnimationRevealPage>
       <Header />
@@ -47,19 +47,6 @@ export default () => {
             <strong>Khẩu hiệu công ty:</strong>"Tinh Thần Toàn Thắng - Đi Đến
             Vinh Quang!"
           </span>
-          <strong>Công ty đã và đang đầu tư vào các lĩnh vực:</strong>
-          <p>
-            Thú Y Thuỷ Sản <br />
-            Vận Tải
-            <br />
-            Đông Y Dưỡng Sinh
-            <br />
-            Hỗ trợ tài chính các dự án
-            <br />
-            Tư vấn hỗ pháp lý luật
-            <br />
-            Tầm nhìn và Sứ mệnh
-          </p>
           <strong>Tầm nhìn:</strong>
           <p>
             - Trở thành công ty đầu tư và thương mại dịch vụ hàng đầu khu vực,

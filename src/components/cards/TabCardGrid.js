@@ -106,7 +106,7 @@ export default ({
       {
         imageSrc: InstructionImage_2,
         title: "TT- HEPA FIX",
-        content: "200g/lon",
+        content: "200g, 500g, 1kg/ Sản phẩm",
         price: "310,000 VNĐ",
         rating: "4.8",
         reviews: "312",
@@ -115,7 +115,7 @@ export default ({
       {
         imageSrc: InstructionImage_5,
         title: "TT- LIVER BOOST",
-        content: "200g/lon",
+        content:  "200g, 500g, 1kg/ Sản phẩm",
         price: "395,000 VNĐ",
         rating: "4.2",
         reviews: "192",
@@ -169,7 +169,7 @@ export default ({
       {
         imageSrc: ANTIPARA,
         title: "PL – ANTIPARA",
-        content: "200g/lon",
+        content: "500g/lon",
         price: "365,000 VNĐ",
         rating: "4.5",
         reviews: "132",
@@ -225,7 +225,7 @@ export default ({
       {
         imageSrc: canxi_one,
         title: "CANXI ONE ",
-        content: "500g/lon",
+        content: "1 lít/lon",
         price: "340,000 VNĐ",
         rating: "4.0",
         reviews: "611",
@@ -252,7 +252,7 @@ export default ({
       {
         imageSrc: NUTRIGANO,
         title: "NUTRIGANO",
-        content: "500g/lon",
+        content: "500ml/lon",
         price: "340,000 VNĐ",
         rating: "4.4",
         reviews: "161",
@@ -261,7 +261,7 @@ export default ({
       {
         imageSrc: SUPER_CANXI ,
         title: "SUPER CANXI ",
-        content: "500g/lon",
+        content: "1 lít/lon",
         price: "340,000 VNĐ",
         rating: "5.0",
         reviews: "521",
@@ -270,7 +270,7 @@ export default ({
       {
         imageSrc: tangtrong ,
         title: "TĂNG TRỌNG ",
-        content: "500g/lon",
+        content: "1 lít/lon",
         price: "340,000 VNĐ",
         rating: "4.0",
         reviews: "361",
@@ -290,7 +290,7 @@ export default ({
       {
         imageSrc: InstructionImage_15,
         title: "AQUA CRUB",
-        content: "200g/lon",
+        content: "1kg/lon",
         price: "280,000 VNĐ",
         rating: "4.6",
         reviews: "136",
@@ -299,7 +299,7 @@ export default ({
       {
         imageSrc: C14,
         title: "C 14",
-        content: "200g/lon",
+        content: "500g/lon",
         price: "280,000 VNĐ",
         rating: "4.9",
         reviews: "304",
@@ -308,7 +308,7 @@ export default ({
       {
         imageSrc: ENVIZYME,
         title: "ENVIZYME",
-        content: "200g/lon",
+        content: "500g/lon",
         price: "280,000 VNĐ",
         rating: "4.3",
         reviews: "745",
@@ -317,7 +317,7 @@ export default ({
       {
         imageSrc: FEEDMULTIZYME,
         title: "FEED MULTIZYME",
-        content: "200g/lon",
+        content: "1 lít/lon",
         price: "280,000 VNĐ",
         rating: "4.6",
         reviews: "485",
@@ -337,7 +337,7 @@ export default ({
       {
         imageSrc: InstructionImage_11,
         title: "ALL CIDE",
-        content: "2lit/ cal",
+        content: "1lit/ cal",
         price: "120,000 VNĐ",
         rating: "4.9",
         reviews: "135",
@@ -346,7 +346,7 @@ export default ({
       {
         imageSrc: InstructionImage_12,
         title: "TOXIN SSE",
-        content: "200g/lon",
+        content: "2 lít/can",
         price: "365,000 VNĐ",
         rating: "5.0",
         reviews: "256",
@@ -364,7 +364,7 @@ export default ({
       {
         imageSrc: PRAZIWS,
         title: "PRAZI WS",
-        content: "250g/gói",
+        content: "1 lít/lon",
         price: "200,000 VNĐ",
         rating: "4.6",
         reviews: "338",

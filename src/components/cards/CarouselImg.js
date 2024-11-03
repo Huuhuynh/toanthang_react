@@ -1,42 +1,70 @@
-import React from "react";
-import { Carousel } from "@material-tailwind/react";
+import React, { useState } from "react";
+// import { Carousel } from "@material-tailwind/react";
 import tw from "twin.macro";
- 
+import {
+  BsFillArrowRightCircleFill,
+  BsFillArrowLeftCircleFill,
+} from "react-icons/bs";
+import BG01 from "../../images/bg/bg01.jpg";
+import BG02 from "../../images/bg/bg02.jpg";
+import BG03 from "../../images/bg/bg03.jpg";
+
 export function CarouselImg() {
-  const CarouselDiv = tw.div`relative h-56 overflow-hidden rounded-lg md:h-96`;
-  const CarouselDivImg = tw.div`hidden duration-700 ease-in-out`;
-  const CarouselImg = tw.img`absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2`;
+  const CarouselContainer = tw.div`overflow-hidden relative`;
+  const CarouselImg = tw.div`flex transition ease-out`;
+  const CarouselBtn = tw.div`absolute top-0 h-full w-full justify-between items-center flex text-white px-10 text-3xl`;
+  const ImageCarouse = tw.img`h-[450px] min-w-full object-cover`;
+  let slides = [BG03, BG02, BG01];
+  let [current, setCurrent] = useState(0);
+
+  let previousSlide = () => {
+    if (current === 0) setCurrent(slides.length - 1);
+    else setCurrent(current - 1);
+  };
+
+  let nextSlide = () => {
+    if (current === slides.length - 1) setCurrent(0);
+    else setCurrent(current + 1);
+  };
 
   return (
-<div id="controls-carousel" class="relative w-full" data-carousel="static">
-    {/* <!-- Carousel wrapper --> */}
-    <CarouselDiv>
-         {/* <!-- Item 1 --> */}
-        <CarouselDivImg data-carousel-item>
-            <img src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
-        </CarouselDivImg>
-        {/* <!-- Item 2 --> */}
-        <CarouselDivImg data-carousel-item="active">
-            <img src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
-        </CarouselDivImg>
-    </CarouselDiv>
-    {/* <!-- Slider controls --> */}
-    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
-        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
-            </svg>
-            <span class="sr-only">Previous</span>
-        </span>
-    </button>
-    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
-        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
-            </svg>
-            <span class="sr-only">Next</span>
-        </span>
-    </button>
-</div>
+    <CarouselContainer>
+      <CarouselImg
+        style={{
+          transform: `translateX(-${current * 100}%)`,
+        }}
+      >
+        {slides.map((s) => {
+          return <ImageCarouse src={s} />;
+        })}
+      </CarouselImg>
+
+      <CarouselBtn>
+        <button onClick={previousSlide}>
+          {/* <p>previousSlide</p> */}
+          <BsFillArrowLeftCircleFill />
+        </button>
+        <button onClick={nextSlide}>
+          {/* <p>nextSlide</p> */}
+          <BsFillArrowRightCircleFill />
+        </button>
+      </CarouselBtn>
+
+      {/* <div className="absolute bottom-0 py-4 flex justify-center gap-3 w-full">
+        {slides.map((s, i) => {
+          return (
+            <div
+              onClick={() => {
+                setCurrent(i);
+              }}
+              key={"circle" + i}
+              className={`rounded-full w-5 h-5 cursor-pointer  ${
+                i == current ? "bg-white" : "bg-gray-500"
+              }`}
+            ></div>
+          );
+        })}
+      </div> */}
+    </CarouselContainer>
   );
 }

@@ -134,6 +134,7 @@ import PRAZIWS from "./detail/moitruong/PRAZIWS";
 import FOSFOTLS from "./detail/dactribenh/FOSFOTLS";
 import AQUABUSAL from "./detail/dinhduong/AQUABUSAL";
 import Info from "./demos/Info";
+import Service from "./demos/Service";
 
 export default function App() {
   // If you want to disable the animation just use the disabled `prop` like below on your page's component
@@ -179,6 +180,8 @@ export default function App() {
         <Route path="/FOSFOTLS" element={<FOSFOTLS/>} />
         <Route path="/AQUABUSAL" element={<AQUABUSAL/>} />
         <Route path="/info" element={<Info/>} />
+        <Route path="/Service" element={<Service/>} />
+        
       </Routes>
     </Router>
   );
