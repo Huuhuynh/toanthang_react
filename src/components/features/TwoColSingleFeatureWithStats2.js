@@ -55,7 +55,7 @@ export default ({
     </>
   ),
   description = "Đối với chúng tôi, uy tín không chỉ là một từ ngữ mà còn là cam kết. Với việc áp dụng các công nghệ tiên tiến và quy trình sản xuất chất lượng, chúng tôi tự hào mang đến cho khách hàng những sản phẩm thuỷ sản chất lượng nhất.",
-  // primaryButtonText = "Learn More",
+  primaryButtonText = "Xem thêm",
   primaryButtonUrl = "https://timerse.com",
   imageSrc = StatsIllustrationSrc,
   imageCss = null,
@@ -69,18 +69,6 @@ export default ({
   // The textOnLeft boolean prop can be used to display either the text on left or right side of the image.
   //Change the statistics variable as you like, add or delete objects
   const defaultStatistics = [
-    {
-      key: "Clients",
-      value: "2282+",
-    },
-    {
-      key: "Projects",
-      value: "3891+",
-    },
-    {
-      key: "Awards",
-      value: "1000+",
-    },
   ];
 
   if (!statistics) statistics = defaultStatistics;
@@ -109,9 +97,9 @@ export default ({
                 </Statistic>
               ))}
             </Statistics>
-            {/* <PrimaryButton as="a" href={primaryButtonUrl}>
+            <PrimaryButton as="a" href={primaryButtonUrl}>
               {primaryButtonText}
-            </PrimaryButton> */}
+            </PrimaryButton>
           </TextContent>
         </TextColumn>
       </TwoColumn>

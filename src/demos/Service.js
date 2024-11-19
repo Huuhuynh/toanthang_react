@@ -13,8 +13,8 @@ export default () => {
   const Container = tw.div`relative`;
   const TwoColumn = tw.div`flex flex-col justify-between max-w-screen-xl mx-auto py-20 md:py-10`;
   const Title = tw.h1`text-blue-700 mt-8 font-bold`;
-  const ColumnGrid = tw.div`grid grid-cols-5`;
-  const PostEvent = tw.div`col-span-3`;
+  const ColumnGrid = tw.div``;
+  const PostEvent = tw.div``;
   
   return (
     <AnimationRevealPage>
@@ -137,7 +137,6 @@ export default () => {
                 </div>
               </div>
             </PostEvent>
-            <div>01</div>
           </ColumnGrid>
         </TwoColumn>
       </Container>

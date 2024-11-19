@@ -135,6 +135,11 @@ import FOSFOTLS from "./detail/dactribenh/FOSFOTLS";
 import AQUABUSAL from "./detail/dinhduong/AQUABUSAL";
 import Info from "./demos/Info";
 import Service from "./demos/Service";
+import New from "./demos/New";
+import New01 from "./demos/new/New01";
+import New02 from "./demos/new/New02";
+import New03 from "./demos/new/New03";
+import New04 from "./demos/new/New04";
 
 export default function App() {
   // If you want to disable the animation just use the disabled `prop` like below on your page's component
@@ -181,7 +186,11 @@ export default function App() {
         <Route path="/AQUABUSAL" element={<AQUABUSAL/>} />
         <Route path="/info" element={<Info/>} />
         <Route path="/Service" element={<Service/>} />
-        
+        <Route path="/new" element={<New/>} />
+        <Route path="/quatnuoc" element={<New01/>} />
+        <Route path="/phanbiettom" element={<New02/>} />
+        <Route path="/tomkhoe" element={<New03/>} />
+        <Route path="/congnghe" element={<New04/>} />
       </Routes>
     </Router>
   );

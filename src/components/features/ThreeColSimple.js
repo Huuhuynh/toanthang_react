@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
-import { css } from "styled-components/macro"; //eslint-disable-line
 import {
   SectionHeading,
   Subheading as SubheadingBase,
@@ -9,9 +8,6 @@ import {
 import { SectionDescription } from "../misc/Typography.js";
 import { Container, ContentWithPaddingXl } from "../misc/Layouts.js";
 import { ReactComponent as ArrowRightIcon } from "../../images/arrow-right-icon.svg";
-import SupportIconImage from "../../images/support-icon.svg";
-import ShieldIconImage from "../../images/shield-icon.svg";
-import CustomizeIconImage from "../../images/customize-icon.svg";
 import { ReactComponent as SvgDecoratorBlob3 } from "../../images/svg-decorator-blob-3.svg";
 
 const Heading = tw(SectionHeading)``;
