@@ -140,6 +140,11 @@ import New01 from "./demos/new/New01";
 import New02 from "./demos/new/New02";
 import New03 from "./demos/new/New03";
 import New04 from "./demos/new/New04";
+import BioPlus from "./detail/new/BioPlus";
+import SuperKill from "./detail/new/SuperKill";
+import CanxiNew from "./detail/new/CanxiNew";
+import Totazyme from "./detail/new/Totazyme";
+import DietOc from "./detail/new/DietOc";
 
 export default function App() {
   // If you want to disable the animation just use the disabled `prop` like below on your page's component
@@ -191,6 +196,12 @@ export default function App() {
         <Route path="/phanbiettom" element={<New02/>} />
         <Route path="/tomkhoe" element={<New03/>} />
         <Route path="/congnghe" element={<New04/>} />
+        <Route path="/BioPlus" element={<BioPlus/>} />
+        <Route path="/SuperKill" element={<SuperKill/>} />
+        <Route path="/CanxiNew" element={<CanxiNew/>} />
+        <Route path="/Totazyme" element={<Totazyme/>} />
+        <Route path="/DietOc" element={<DietOc/>} />
+        
       </Routes>
     </Router>
   );

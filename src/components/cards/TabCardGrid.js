@@ -38,6 +38,10 @@ import C14 from "../../images/product/tieuhoa/C14.png";
 import ENVIZYME from "../../images/product/tieuhoa/ENVIZYME.png";
 import FEEDMULTIZYME from "../../images/product/tieuhoa/FEEDMULTIZYME.jpg";
 import PRAZIWS from "../../images/product/moitruong/PRAZIWS.png";
+import bio_plus from "../../images/product/spnew/bio_plus.jpg";
+import canxu_new from "../../images/product/spnew/canxu_new.jpg";
+import super_kill from "../../images/product/spnew/super_kill.jpg";
+import totazyme from "../../images/product/spnew/totazyme.jpg";
 
 const HeaderRow = tw.div`flex justify-between items-center flex-col xl:flex-row`;
 const Header = tw(SectionHeading)``;
@@ -203,7 +207,7 @@ export default ({
       {
         imageSrc: InstructionImage_4,
         title: "TT - PATHO STOP",
-        content:"500ml, 1lit/chai",
+        content: "500ml, 1lit/chai",
         price: "355,000 VNĐ",
         rating: "4.6",
         reviews: "129",
@@ -362,6 +366,51 @@ export default ({
         reviews: "338",
         url: "/PRAZIWS",
       },
+      {
+        imageSrc: bio_plus,
+        title: "BIO - PLUS",
+        content: "1kg/sản phẩm",
+        price: "200,000 VNĐ",
+        rating: "4.6",
+        reviews: "338",
+        url: "/BioPlus",
+      },
+      {
+        imageSrc: super_kill,
+        title: "SUPER KILL",
+        content: "1lít/sản phẩm",
+        price: "200,000 VNĐ",
+        rating: "4.6",
+        reviews: "338",
+        url: "/SuperKill",
+      },
+      {
+        imageSrc: '',
+        title: "DIỆT ỐC",
+        content: "1kg/sản phẩm",
+        price: "200,000 VNĐ",
+        rating: "4.6",
+        reviews: "338",
+        url: "/DietOc",
+      },
+      {
+        imageSrc: canxu_new,
+        title: "CANXI NEW",
+        content: "1lít/sản phẩm",
+        price: "200,000 VNĐ",
+        rating: "4.6",
+        reviews: "338",
+        url: "/CanxiNew",
+      },
+      {
+        imageSrc: totazyme,
+        title: "TOTAZYME",
+        content: "1kg/sản phẩm",
+        price: "200,000 VNĐ",
+        rating: "4.6",
+        reviews: "338",
+        url: "/Totazyme",
+      },
     ],
     ĐẶC_TRỊ_BỆNH: [
       {
@@ -468,7 +517,7 @@ export default ({
       {
         imageSrc: InstructionImage_4,
         title: "TT - PATHO STOP",
-        content:"500ml, 1lit/chai",
+        content: "500ml, 1lit/chai",
         price: "355,000 VNĐ",
         rating: "4.6",
         reviews: "129",
@@ -632,6 +681,53 @@ export default ({
         url: "/PRAZIWS",
       },
     ],
+    NEW: [
+      {
+        imageSrc: bio_plus,
+        title: "BIO - PLUS",
+        content: "1kg/sản phẩm",
+        price: "200,000 VNĐ",
+        rating: "4.6",
+        reviews: "338",
+        url: "/BioPlus",
+      },
+      {
+        imageSrc: super_kill,
+        title: "SUPER KILL",
+        content: "1lít/sản phẩm",
+        price: "200,000 VNĐ",
+        rating: "4.6",
+        reviews: "338",
+        url: "/SuperKill",
+      },
+      {
+        imageSrc: '',
+        title: "DIỆT ỐC",
+        content: "1kg/sản phẩm",
+        price: "200,000 VNĐ",
+        rating: "4.6",
+        reviews: "338",
+        url: "/DietOc",
+      },
+      {
+        imageSrc: canxu_new,
+        title: "CANXI NEW",
+        content: "1lít/sản phẩm",
+        price: "200,000 VNĐ",
+        rating: "4.6",
+        reviews: "338",
+        url: "/CanxiNew",
+      },
+      {
+        imageSrc: totazyme,
+        title: "TOTAZYME",
+        content: "1kg/sản phẩm",
+        price: "200,000 VNĐ",
+        rating: "4.6",
+        reviews: "338",
+        url: "/Totazyme",
+      },
+    ],
   },
 }) => {
   /*
@@ -663,7 +759,8 @@ export default ({
                   ? "Dinh dưỡng"
                   : index === 3
                   ? "Tiêu hoá"
-                  : "Môi trường"}
+                  : index === 4
+                  ? "Môi trường": "SP Mới"} 
               </TabControl>
             ))}
           </TabsControl>
