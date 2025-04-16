@@ -5,7 +5,7 @@ import Footer from "../../components/footers/FiveColumnWithInputForm.js";
 import Header from "../../components/headers/light";
 import MainFeature from "../../components/features/TwoColWithButton.js";
 
-// import InstructionImage_1 from "";
+import InstructionImage_1 from "../../images/product/spnew/dietoc.png";
 
 export default () => {
   const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
@@ -19,7 +19,7 @@ export default () => {
     <AnimationRevealPage>
       <Header />
       <MainFeature
-        subheading={""}
+        subheading={"DIỆT ỐC ĐINH"}
         heading={
           <>
             DIỆT ỐC
@@ -44,13 +44,11 @@ export default () => {
               <br />
             </p>
             <p>
-              Định lượng tịnh:
+            <strong>Định lượng tịnh:</strong> 500G
               <br />
-              Số tiêu chuẩn công bố:
+              <strong>Số tiêu chuẩn công bố:</strong> TCCS 02:2024/TT
               <br />
-              TCCS 01:2024/TT
-              <br />
-              Mã số tiếp nhận: <br />
+              <strong>Mã số tiếp nhận:</strong>  02-053420<br />
               Số lô sản xuất: <br />
               Ngày sản xuất:
               <br />
@@ -59,17 +57,17 @@ export default () => {
               da, niêm mạc dùng nước sạch rửa sạch. Không dùng cho người, chỉ
               dùng trong nuôi trồng thủy sản.
               <br />
-              Hạn sử dụng: 2 năm kể từ ngày sản xuất trong điều kiện bao bì kín.
+              <strong>Hạn sử dụng:</strong> 2 năm kể từ ngày sản xuất trong điều kiện bao bì kín.
               Nếu bao bì đã mở thì sử dụng không quá 7 ngày. Chú ý đóng kín bao
               bì sau khi sử dụng.
               <br />
-              Sản phẩm của: CÔNG TY TNHH ĐẦU TƯ VÀ THƯƠNG MẠI DỊCH VỤ TOÀN THẮNG
+              <strong>Sản phẩm của:</strong> CÔNG TY TNHH ĐẦU TƯ VÀ THƯƠNG MẠI DỊCH VỤ TOÀN THẮNG
               COMMERCE
               <br />
-              Địa chỉ: 49 Đường số 6B (nối dài), KDC Vĩnh Lộc, KP4, P.Bình Hưng
+              <strong>Địa chỉ:</strong> 49 Đường số 6B (nối dài), KDC Vĩnh Lộc, KP4, P.Bình Hưng
               Hòa B, Q.Bình Tân, TP.HCM, Việt Nam
               <br />
-              Sản xuất tại: CHI NHÁNH SỐ 2 - CÔNG TY TNHH ĐẠI AN THÁI – Lô A1.2,
+              <strong>Sản xuất tại:</strong> CHI NHÁNH SỐ 2 - CÔNG TY TNHH ĐẠI AN THÁI – Lô A1.2,
               Đường số 2, KCN Đức Hòa III-Tập Đoàn Tân Á Đại Thành, Ấp Đức Hạnh
               2, Xã Đức Lập Hạ, Huyện Đức Hòa, Tỉnh Long An, Việt Nam
             </p>
@@ -104,7 +102,7 @@ export default () => {
         buttonRounded={false}
         textOnLeft={false}
         primaryButtonText="Liên hệ"
-        imageSrc={''}
+        imageSrc={InstructionImage_1}
         imageCss={imageCss}
         imageDecoratorBlob={true}
         imageDecoratorBlobCss={tw`left-1/2 -translate-x-1/2 md:w-32 md:h-32 opacity-25`}

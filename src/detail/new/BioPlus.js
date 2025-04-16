@@ -5,7 +5,7 @@ import Footer from "../../components/footers/FiveColumnWithInputForm.js";
 import Header from "../../components/headers/light";
 import MainFeature from "../../components/features/TwoColWithButton.js";
 
-import InstructionImage_1 from "../../images/product/spnew/bio_plus.jpg";
+import InstructionImage_1 from "../../images/product/spnew/bio_plus.png";
 
 export default () => {
   const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
@@ -20,7 +20,7 @@ export default () => {
       <Header />
       <MainFeature
         subheading={
-          "XỬ LÝ KHÍ ĐỘC NH3, H2S, NO2,…, LÀM SẠCH NƯỚC, NHỚT BẠT TRONG AO NUÔI"
+          "XỬ LÝ KHÍ ĐỘC H2S, NO2, NH3, LÀM SẠCH NHỚT BẠT TRONG AO NUÔI"
         }
         heading={
           <>
@@ -48,10 +48,10 @@ export default () => {
               Làm sạch nước, sạch nhớt bạt trong ao nuôi.
             </p>
             <p>
-              Định lượng tịnh: <br />
-              Số tiêu chuẩn công bố: <br />
+             <strong>Định lượng tịnh:</strong>  Gói 227g<br />
+             <strong>Số tiêu chuẩn công bố:</strong> TCCS 03:2024/TT<br />
               TCCS 03:2024/TT <br />
-              Mã số tiếp nhận: <br />
+              <strong>Mã số tiếp nhận:</strong> 02-053417<br />
               Số lô sản xuất: <br />
               Ngày sản xuất: <br />
               Sản phẩm phải được bảo quản ở nơi khô ráo, thoáng mát, tránh ánh

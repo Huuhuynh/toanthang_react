@@ -81,6 +81,7 @@ export default ({
     <NavLinks key={1}>
       <NavLink href="/">Trang chủ</NavLink>
       <NavLink href="/product">Sản phẩm</NavLink>
+      <NavLink href="/productnew">Sản phẩm mới</NavLink>
       <NavLink href="/Service">Dịch vụ - Sự kiện</NavLink>
       <NavLink href="/info">Về chúng tôi</NavLink>
       <NavLink href="/new">Tin tức</NavLink>

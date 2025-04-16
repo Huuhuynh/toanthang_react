@@ -145,6 +145,12 @@ import SuperKill from "./detail/new/SuperKill";
 import CanxiNew from "./detail/new/CanxiNew";
 import Totazyme from "./detail/new/Totazyme";
 import DietOc from "./detail/new/DietOc";
+import ProductNew from "./demos/ProductNew";
+import VitaAminPro from "./detail/new/VitaAminPro";
+import TTLiverSurNew from "./detail/new/TTLiverSurNew";
+import TTLiverBoostNew from "./detail/new/TTLiverBoostNew";
+import PraziWsNew from "./detail/new/PraziWsNew";
+import SulbacNew from "./detail/new/SulbacNew";
 
 export default function App() {
   // If you want to disable the animation just use the disabled `prop` like below on your page's component
@@ -158,6 +164,7 @@ export default function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/" element={<RestaurantLandingPage />} />
         <Route path="/product" element={<Product />} />
+        <Route path="/productnew" element={<ProductNew />} />
         <Route path="/chongstress" element={<Songstress />} />
         <Route path="/nutripro" element={<Nutrition />} />
         <Route path="/ttpathostop" element={<TTPatholStop />} />
@@ -201,7 +208,11 @@ export default function App() {
         <Route path="/CanxiNew" element={<CanxiNew/>} />
         <Route path="/Totazyme" element={<Totazyme/>} />
         <Route path="/DietOc" element={<DietOc/>} />
-        
+        <Route path="/VitaAminPro" element={<VitaAminPro/>} />
+        <Route path="/TTLiverSurNew" element={<TTLiverSurNew/>} />
+        <Route path="/TTLiverBoostNew" element={<TTLiverBoostNew/>} />
+        <Route path="/PraziWSNew" element={<PraziWsNew/>} />
+        <Route path="/SulbacNew" element={<SulbacNew/>} />
       </Routes>
     </Router>
   );

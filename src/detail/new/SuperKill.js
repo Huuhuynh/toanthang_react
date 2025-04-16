@@ -5,7 +5,7 @@ import Footer from "../../components/footers/FiveColumnWithInputForm.js";
 import Header from "../../components/headers/light";
 import MainFeature from "../../components/features/TwoColWithButton.js";
 
-import InstructionImage_1 from "../../images/product/spnew/super_kill.jpg";
+import InstructionImage_1 from "../../images/product/spnew/super_kill.png";
 
 export default () => {
   const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
@@ -20,7 +20,7 @@ export default () => {
       <Header />
       <MainFeature
         subheading={
-          "XỬ LÝ NẤM ĐỒNG TIỀN, NHỚT BẠT"
+          "DIỆT ĐƯỢC NHIỀU LOẠI NẤM, VI KHUẨN, VI BÀO TỬ TRÙNG, NGOẠI KÍ SINH GÂY BỆNH TRÊN TÔM"
         }
         heading={
           <>
@@ -41,7 +41,7 @@ export default () => {
           <Description>
             <strong>CÔNG DỤNG: </strong>
             <p>
-              Đối với cá:
+              <strong>Đối với cá:</strong>
               <br />
               Diệt ngoại kí sinh trên cá có trong môi trường nước ao nuôi như:
               nấm nhớt, rận cá, trùng mỏ neo, trùng bánh xe,...
@@ -49,7 +49,7 @@ export default () => {
               Diệt khuẩn trong nước ao nuôi gây bệnh lở loét, thối đuôi, thối
               vây, gan thận mủ.
               <br />
-              Đối với tôm:
+              <strong>Đối với tôm:</strong>
               <br />
               Xử lý nấm đồng tiền bám trên bạt và các thiết bị trong ao nuôi.
               <br />
@@ -60,13 +60,11 @@ export default () => {
               <br />
             </p>
             <p>
-              Định lượng tịnh:
+              <strong>Định lượng tịnh:</strong> CHAI 1L
               <br />
-              Số tiêu chuẩn công bố:
+              <strong>Số tiêu chuẩn công bố:</strong> TCCS 01:2024/TT
               <br />
-              TCCS 01:2024/TT
-              <br />
-              Mã số tiếp nhận: <br />
+              <strong>Mã số tiếp nhận:</strong> 02-053418 <br />
               Số lô sản xuất: <br />
               Ngày sản xuất:
               <br />
@@ -75,19 +73,20 @@ export default () => {
               da, niêm mạc dùng nước sạch rửa sạch. Không dùng cho người, chỉ
               dùng trong nuôi trồng thủy sản.
               <br />
-              Hạn sử dụng: 2 năm kể từ ngày sản xuất trong điều kiện bao bì kín.
-              Nếu bao bì đã mở thì sử dụng không quá 7 ngày. Chú ý đóng kín bao
-              bì sau khi sử dụng.
+              <strong>Hạn sử dụng:</strong> 2 năm kể từ ngày sản xuất trong điều
+              kiện bao bì kín. Nếu bao bì đã mở thì sử dụng không quá 7 ngày.
+              Chú ý đóng kín bao bì sau khi sử dụng.
               <br />
-              Sản phẩm của: CÔNG TY TNHH ĐẦU TƯ VÀ THƯƠNG MẠI DỊCH VỤ TOÀN THẮNG
-              COMMERCE
+              <strong> Sản phẩm của:</strong> CÔNG TY TNHH ĐẦU TƯ VÀ THƯƠNG MẠI
+              DỊCH VỤ TOÀN THẮNG COMMERCE
               <br />
-              Địa chỉ: 49 Đường số 6B (nối dài), KDC Vĩnh Lộc, KP4, P.Bình Hưng
-              Hòa B, Q.Bình Tân, TP.HCM, Việt Nam
+              <strong>Địa chỉ:</strong> 49 Đường số 6B (nối dài), KDC Vĩnh Lộc,
+              KP4, P.Bình Hưng Hòa B, Q.Bình Tân, TP.HCM, Việt Nam
               <br />
-              Sản xuất tại: CHI NHÁNH SỐ 2 - CÔNG TY TNHH ĐẠI AN THÁI – Lô A1.2,
-              Đường số 2, KCN Đức Hòa III-Tập Đoàn Tân Á Đại Thành, Ấp Đức Hạnh
-              2, Xã Đức Lập Hạ, Huyện Đức Hòa, Tỉnh Long An, Việt Nam
+              <strong>Sản xuất tại: </strong>CHI NHÁNH SỐ 2 - CÔNG TY TNHH ĐẠI
+              AN THÁI – Lô A1.2, Đường số 2, KCN Đức Hòa III-Tập Đoàn Tân Á Đại
+              Thành, Ấp Đức Hạnh 2, Xã Đức Lập Hạ, Huyện Đức Hòa, Tỉnh Long An,
+              Việt Nam
             </p>
           </Description>
         }
@@ -100,14 +99,14 @@ export default () => {
             </p>
             <strong>HƯỚNG DẪN SỬ DỤNG:</strong>
             <p>
-              Đối với cá: <br />
+              <strong>Đối với cá:</strong> <br />
               Đối với cá 15-30 ngày tuổi: Sử dụng 1 lít SUPER KILL cho
               10.000-12.000m3 nước. <br />
               Đối với cá trên 30 ngày tuổi: Sử dụng 1 lít SUPER KILL cho
               8.000-10.000m3 nước. <br />
               Đối với cá trên 50 ngày tuổi: Sử dụng 1 lít SUPER KILL cho
               5.000-8.000m3 nước. <br />
-              Đối với tôm: <br />
+              <strong>Đối với tôm:</strong> <br />
               Xử lý nấm đồng tiền: 1 lít/2.000-3.000m3 nước. <br />
               Diệt ký sinh trùng, đóng rong và xử lý nước khi tôm xuất hiện
               bệnh: 4.000-5.000m3 nước. <br />

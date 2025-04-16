@@ -5,7 +5,7 @@ import Footer from "../../components/footers/FiveColumnWithInputForm.js";
 import Header from "../../components/headers/light";
 import MainFeature from "../../components/features/TwoColWithButton.js";
 
-import InstructionImage_1 from "../../images/product/spnew/canxu_new.jpg";
+import InstructionImage_1 from "../../images/product/spnew/canxu_new.png";
 
 export default () => {
   const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
@@ -19,7 +19,7 @@ export default () => {
     <AnimationRevealPage>
       <Header />
       <MainFeature
-        subheading={"KÍCH THÍCH LỘT VỎ, NHANH CỨNG VỎ, NGĂN NGỪA HIỆN TƯỢNG CÔNG THÂN, ĐỤC CƠ, ỐP VỎ DO THIẾU KHOÁNG"}
+        subheading={"KÍCH THÍCH LỘT VỎ, NHANH CỨNG VỎ NGĂN NGỪA HIỆN TƯỢNG CONG THÂN ĐỤC CƠ, ỐP VỎ DO THIẾU KHOÁNG"}
         heading={
           <>
             CANXI NEW
@@ -49,13 +49,11 @@ export default () => {
               <br />
             </p>
             <p>
-              Định lượng tịnh:
+            <strong>Định lượng tịnh:</strong> CHAI 1L
               <br />
-              Số tiêu chuẩn công bố:
+              <strong>Số tiêu chuẩn công bố:</strong> TCCS 05:2024/TT
               <br />
-              TCCS 01:2024/TT
-              <br />
-              Mã số tiếp nhận: <br />
+              <strong>Mã số tiếp nhận:</strong> 01-053425<br />
               Số lô sản xuất: <br />
               Ngày sản xuất:
               <br />
@@ -63,17 +61,17 @@ export default () => {
               nắng trực tiếp. Kho phải có biện pháp chống chuột và côn trùng phá
               hoại. Chỉ dùng trong nuôi trồng thủy sản.
               <br />
-              Hạn sử dụng: 2 năm kể từ ngày sản xuất trong điều kiện bao bì kín.
+              <strong>Hạn sử dụng:</strong> 2 năm kể từ ngày sản xuất trong điều kiện bao bì kín.
               Nếu bao bì đã mở thì sử dụng không quá 7 ngày. Chú ý đóng kín bao
               bì sau khi sử dụng.
               <br />
-              Sản phẩm của: CÔNG TY TNHH ĐẦU TƯ VÀ THƯƠNG MẠI DỊCH VỤ TOÀN THẮNG
+              <strong>Sản phẩm của:</strong> CÔNG TY TNHH ĐẦU TƯ VÀ THƯƠNG MẠI DỊCH VỤ TOÀN THẮNG
               COMMERCE
               <br />
-              Địa chỉ: 49 Đường số 6B (nối dài), KDC Vĩnh Lộc, KP4, P.Bình Hưng
+              <strong>Địa chỉ:</strong> 49 Đường số 6B (nối dài), KDC Vĩnh Lộc, KP4, P.Bình Hưng
               Hòa B, Q.Bình Tân, TP.HCM, Việt Nam
               <br />
-              Sản xuất tại: CHI NHÁNH SỐ 2 - CÔNG TY TNHH ĐẠI AN THÁI – Lô A1.2,
+              <strong>Sản xuất tại:</strong> CHI NHÁNH SỐ 2 - CÔNG TY TNHH ĐẠI AN THÁI – Lô A1.2,
               Đường số 2, KCN Đức Hòa III-Tập Đoàn Tân Á Đại Thành, Ấp Đức Hạnh
               2, Xã Đức Lập Hạ, Huyện Đức Hòa, Tỉnh Long An, Việt Nam
             </p>
@@ -106,7 +104,7 @@ export default () => {
               Có thể tạt trực tiếp xuống ao với liều lượng:
               1lít/1.500-2.000m3 nước, định kỳ 5-7 ngày/lần.
               <br />
-              Lưu ý: Khuấy trộn dung dịch  thường xuyên khi tưới vào thức ăn để
+              <strong>Lưu ý:</strong> Khuấy trộn dung dịch  thường xuyên khi tưới vào thức ăn để
               sản phẩm được phân tán đều. Để thức ăn khô tự  nhiên 30 phút trước
               khi cho tôm, cá ăn.
             </p>

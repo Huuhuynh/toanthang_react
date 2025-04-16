@@ -5,7 +5,7 @@ import Footer from "../../components/footers/FiveColumnWithInputForm.js";
 import Header from "../../components/headers/light";
 import MainFeature from "../../components/features/TwoColWithButton.js";
 
-import InstructionImage_1 from "../../images/product/spnew/totazyme.jpg";
+import InstructionImage_1 from "../../images/product/spnew/totazyme.png";
 
 export default () => {
   const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block`;
@@ -50,28 +50,28 @@ export default () => {
               <br />
             </p>
             <p>
-              Định lượng tịnh:
+             <strong>Định lượng tịnh:</strong>  LON 500G
               <br />
-              Số tiêu chuẩn công bố:
+             <strong>Số tiêu chuẩn công bố: </strong>TCCS 05:2024/TT
               <br />
-              TCCS 01:2024/TT
+              <strong>Mã số tiếp nhận:</strong> 01-053425
               <br />
-              Mã số tiếp nhận: <br />
               Số lô sản xuất: <br />
               Ngày sản xuất:
               <br />
+              <strong>HƯỚNG DẪN BẢO QUẢN:</strong> <br />
               Sản phẩm phải được bảo quản ở nơi khô ráo, thoáng mát, tránh ánh
               nắng trực tiếp. Kho phải có biện pháp chống chuột và côn trùng phá
               hoại. Chỉ dùng trong nuôi trồng thủy sản.
               <br />
-              Hạn sử dụng: 2 năm kể từ ngày sản xuất trong điều kiện bao bì kín.
+              <strong>Hạn sử dụng:</strong> 2 năm kể từ ngày sản xuất trong điều kiện bao bì kín.
               Nếu bao bì đã mở thì sử dụng không quá 7 ngày. Chú ý đóng kín bao
               bì sau khi sử dụng.
               <br />
-              Sản phẩm của: CÔNG TY TNHH ĐẦU TƯ VÀ THƯƠNG MẠI DỊCH VỤ TOÀN THẮNG
+              <strong>Sản phẩm của:</strong> CÔNG TY TNHH ĐẦU TƯ VÀ THƯƠNG MẠI DỊCH VỤ TOÀN THẮNG
               COMMERCE
               <br />
-              Địa chỉ: 49 Đường số 6B (nối dài), KDC Vĩnh Lộc, KP4, P.Bình Hưng
+              <strong>Địa chỉ:</strong> 49 Đường số 6B (nối dài), KDC Vĩnh Lộc, KP4, P.Bình Hưng
               Hòa B, Q.Bình Tân, TP.HCM, Việt Nam
               <br />
               Sản xuất tại: CHI NHÁNH SỐ 2 - CÔNG TY TNHH ĐẠI AN THÁI – Lô A1.2,
@@ -100,6 +100,7 @@ export default () => {
               doanh thủy sản theo các quy định hiện hành của Bộ Nông nghiệp và
               Phát triển nông thôn” 
             </p>
+          
           </Description2>
         }
         buttonRounded={false}

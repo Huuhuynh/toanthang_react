@@ -38,10 +38,16 @@ import C14 from "../../images/product/tieuhoa/C14.png";
 import ENVIZYME from "../../images/product/tieuhoa/ENVIZYME.png";
 import FEEDMULTIZYME from "../../images/product/tieuhoa/FEEDMULTIZYME.jpg";
 import PRAZIWS from "../../images/product/moitruong/PRAZIWS.png";
-import bio_plus from "../../images/product/spnew/bio_plus.jpg";
-import canxu_new from "../../images/product/spnew/canxu_new.jpg";
-import super_kill from "../../images/product/spnew/super_kill.jpg";
-import totazyme from "../../images/product/spnew/totazyme.jpg";
+import bio_plus from "../../images/product/spnew/bio_plus.png";
+import canxu_new from "../../images/product/spnew/canxu_new.png";
+import super_kill from "../../images/product/spnew/super_kill.png";
+import totazyme from "../../images/product/spnew/totazyme.png";
+import dietoc from "../../images/product/spnew/dietoc.png";
+import VitaAminPro from "../../images/product/spnew/VITA_AMIN_PRO.png";
+import TTLiverSur from "../../images/product/spnew/TT_LIVER_SUR.png";
+import TTLiverBoostNew from "../../images/product/spnew/TT_LIVER_BOOST.png";
+import PraziWSNew from "../../images/product/spnew/PRAZI_WS_NEW.png";
+import SulbacNew from "../../images/product/spnew/SULBAC_NEW.png";
 
 const HeaderRow = tw.div`flex justify-between items-center flex-col xl:flex-row`;
 const Header = tw(SectionHeading)``;
@@ -385,7 +391,7 @@ export default ({
         url: "/SuperKill",
       },
       {
-        imageSrc: '',
+        imageSrc: dietoc,
         title: "DIỆT ỐC",
         content: "1kg/sản phẩm",
         price: "200,000 VNĐ",
@@ -701,7 +707,7 @@ export default ({
         url: "/SuperKill",
       },
       {
-        imageSrc: '',
+        imageSrc: dietoc,
         title: "DIỆT ỐC",
         content: "1kg/sản phẩm",
         price: "200,000 VNĐ",
@@ -726,6 +732,52 @@ export default ({
         rating: "4.6",
         reviews: "338",
         url: "/Totazyme",
+      },
+      //
+      {
+        imageSrc: VitaAminPro,
+        title: "VITA – AMIN PRO",
+        content: "1kg/sản phẩm",
+        price: "200,000 VNĐ",
+        rating: "4.6",
+        reviews: "338",
+        url: "/VitaAminPro",
+      },
+      {
+        imageSrc: TTLiverSur,
+        title: "TT – LIVER SUR",
+        content: "1kg/sản phẩm",
+        price: "200,000 VNĐ",
+        rating: "4.6",
+        reviews: "338",
+        url: "/TTLiverSurNew",
+      },
+      {
+        imageSrc: TTLiverBoostNew,
+        title: "TT - LIVER BOOST",
+        content: "1kg/sản phẩm",
+        price: "200,000 VNĐ",
+        rating: "4.6",
+        reviews: "338",
+        url: "/TTLiverBoostNew",
+      },
+      {
+        imageSrc: PraziWSNew,
+        title: "PRAZI WS NEW",
+        content: "1kg/sản phẩm",
+        price: "200,000 VNĐ",
+        rating: "4.6",
+        reviews: "338",
+        url: "/PraziWSNew",
+      },
+      {
+        imageSrc: SulbacNew,
+        title: "SULBAC NEW",
+        content: "1kg/sản phẩm",
+        price: "200,000 VNĐ",
+        rating: "4.6",
+        reviews: "338",
+        url: "/SulbacNew",
       },
     ],
   },
